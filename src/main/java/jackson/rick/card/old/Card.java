@@ -1,15 +1,15 @@
-package jackson.rick.card;
+package jackson.rick.card.old;
 
 /**
  * Created by rickjackson on 1/27/17.
  */
-public class Card {
+class Card {
     Rank rank;
     Suit suit;
 
     Card() {}
 
-    Card(Rank rank, Suit suit) {
+    public Card(Rank rank, Suit suit) {
         this.rank = rank;
         this.suit = suit;
     }
@@ -21,5 +21,13 @@ public class Card {
 
     public String symbol() {
         return Rank.shorthand(this.rank) + Suit.symbol(this.suit);
+    }
+    
+    public Rank getRank() {
+        return this.rank;
+    }
+    
+    public Suit getSuit() {
+        return this.suit;
     }
 }

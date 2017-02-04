@@ -1,8 +1,7 @@
-package jackson.rick.card;
+package jackson.rick.card.old;
 
-import static org.junit.Assert.*;
+import jackson.rick.card.old.Deck;
 import org.junit.Before;
-import org.junit.Test;
 
 /**
  * Created by rickjackson on 1/31/17.

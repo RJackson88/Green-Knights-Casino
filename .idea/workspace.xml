@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a935c61-8cba-4db5-bd9e-bad8eb05ddc6" name="Default" comment="" />
+    <list default="true" id="4a935c61-8cba-4db5-bd9e-bad8eb05ddc6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Ace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Eight.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Five.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Four.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Jack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Joker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/King.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Nine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Queen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Rank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Seven.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Six.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Ten.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Three.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Two.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Club.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Diamond.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Heart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Spade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Suit.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/card/Rank.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/card/App.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/old/App.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/card/Card.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Card.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/card/Deck.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Deck.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/card/Joker.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Joker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/card/Shoe.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Shoe.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/card/Standard52CardDeck.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Standard52CardDeck.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/card/Suit.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Suit.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/jackson/rick/card/CardTest.java" afterPath="$PROJECT_DIR$/src/test/java/jackson/rick/card/old/CardTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/jackson/rick/card/DeckTest.java" afterPath="$PROJECT_DIR$/src/test/java/jackson/rick/card/old/DeckTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/jackson/rick/card/JokerTest.java" afterPath="$PROJECT_DIR$/src/test/java/jackson/rick/card/old/JokerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/jackson/rick/card/RankTest.java" afterPath="$PROJECT_DIR$/src/test/java/jackson/rick/card/old/RankTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/jackson/rick/card/ShoeTest.java" afterPath="$PROJECT_DIR$/src/test/java/jackson/rick/card/old/ShoeTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/jackson/rick/card/SuitTest.java" afterPath="$PROJECT_DIR$/src/test/java/jackson/rick/card/old/SuitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jackson/rick/card/Card.class" afterPath="$PROJECT_DIR$/target/classes/jackson/rick/card/Card.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jackson/rick/card/Deck.class" afterPath="$PROJECT_DIR$/target/classes/jackson/rick/card/Deck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jackson/rick/card/Rank.class" afterPath="$PROJECT_DIR$/target/classes/jackson/rick/card/Rank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jackson/rick/card/Standard52CardDeck.class" afterPath="$PROJECT_DIR$/target/classes/jackson/rick/card/Standard52CardDeck.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,38 +57,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Combination.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Combination.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/TestMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -57,41 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/Suit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/Rank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/Card.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Joker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Rank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Card.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Input.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Standard52CardDeck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Deck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Suit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/token/Denomination.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/token/Color.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/card/DeckTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Shoe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/BetType.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/game/table/roulette/bet/Column.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/card/CardTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/card/JokerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/card/RankTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/card/ShoeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/card/SuitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/game/table/roulette/bet/BetTypeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/game/table/roulette/bet/NumberTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Combination.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/game/table/roulette/bet/ColumnTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Number.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/EvenOdd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Dozen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/RedBlack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/HighLow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Street.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Split.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Corner.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Line.java" />
@@ -101,6 +89,48 @@
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Trio.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/TestMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/StraightUp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/FiveOfAKind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Hand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/King.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/Ten.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Rank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Card.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Deck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Suit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Standard52CardDeck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Shoe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/Joker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Suit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Spade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Heart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Club.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Diamond.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Rank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Four.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Ace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Eight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Five.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Joker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Jack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/King.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Nine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Queen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Seven.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Six.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Ten.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Three.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/Two.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Suit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/King.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Suit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/Heart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Heart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Club.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Diamond.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Seven.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Ace.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Spade.java" />
       </list>
     </option>
   </component>
@@ -122,6 +152,9 @@
     <option name="width" value="1107" />
     <option name="height" value="988" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -137,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -221,36 +255,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="card" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GreenKnightsCasino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GreenKnightsCasino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -278,66 +282,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="token" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GreenKnightsCasino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GreenKnightsCasino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GreenKnightsCasino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GreenKnightsCasino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,12 +312,45 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="card" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GreenKnightsCasino" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GreenKnightsCasino" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rick" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="card" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="french" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,6 +371,7 @@
       <recent name="jackson.rick.game.table.roulette.bet" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jackson.rick.card.old" />
       <recent name="jackson.rick.card" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -941,7 +919,9 @@
       <workItem from="1485891658511" duration="12753000" />
       <workItem from="1485980859754" duration="19962000" />
       <workItem from="1486051012736" duration="1373000" />
-      <workItem from="1486058576202" duration="15146000" />
+      <workItem from="1486058576202" duration="22568000" />
+      <workItem from="1486168995135" duration="3620000" />
+      <workItem from="1486217538340" duration="4798000" />
     </task>
     <servers />
   </component>
@@ -978,7 +958,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119208000" />
+    <option name="totallyTimeSpent" value="135048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1107" height="988" extended-state="0" />
@@ -987,33 +967,64 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35287356" sideWeight="0.5070422" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21609196" sideWeight="0.49295774" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21609196" sideWeight="0.49295774" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1915493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19906104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35287356" sideWeight="0.5070422" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21609196" sideWeight="0.49295774" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1915493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1032,320 +1043,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/token/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/card/CardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/token/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/token/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/jackson/rick.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../GinzbergCasino/GinzbergCasion/GinzbergerCasino.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Polymorphism/Part1/src/main/java/io/zipcoder/pets/Input.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/game/table/roulette/bet/Number.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/game/table/roulette/bet/BetType.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/game/table/roulette/bet/Column.java" />
-    <entry file="file://$PROJECT_DIR$/../Polymorphism/Polymorphism/Pets/Pets.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/card/DeckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#241#242#0" expanded="false" />
-            <element signature="e#274#275#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/card/JokerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/card/RankTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/card/ShoeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/game/table/roulette/bet/BetTypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/card/SuitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#689#690#0" expanded="false" />
-            <element signature="e#736#737#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/Joker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/Shoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="e#247#248#0" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-            <element signature="e#311#312#0" expanded="false" />
-            <element signature="e#343#344#0" expanded="false" />
-            <element signature="e#374#375#0" expanded="false" />
-            <element signature="e#413#414#0" expanded="false" />
-            <element signature="e#460#461#0" expanded="false" />
-            <element signature="e#506#507#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/Standard52CardDeck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/Rank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="126" column="36" lean-forward="true" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
-          <folding>
-            <element signature="e#2299#2300#0" expanded="false" />
-            <element signature="e#2342#2343#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/Suit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/BetType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="96" column="6" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/token/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/token/Denomination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/game/table/roulette/bet/NumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="428" column="0" lean-forward="false" selection-start-line="428" selection-start-column="0" selection-end-line="428" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/card/CardTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="24" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/game/table/roulette/bet/ColumnTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="30" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/EvenOdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/RedBlack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Dozen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/HighLow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="70" lean-forward="false" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Street.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -1366,14 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Corner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="44" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1418,18 +1107,339 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/StraightFlush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/FourOfAKind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/FullHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/ThreeOfAKind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Straight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Flush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/TwoPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/OnePair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/HighCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
+        <state relative-caret-position="647">
           <caret line="44" column="41" lean-forward="false" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Corner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Combination.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="45">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/FiveOfAKind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/Ten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Six.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Ten.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Three.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Two.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/old/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Joker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Shoe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Standard52CardDeck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/old/Suit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Five.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Four.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Jack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Joker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Nine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Queen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Seven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Eight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/rank/Ace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Spade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Heart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Diamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Club.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/card/french/suit/Suit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding />
         </state>
       </provider>

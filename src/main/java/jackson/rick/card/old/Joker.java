@@ -1,9 +1,9 @@
-package jackson.rick.card;
+package jackson.rick.card.old;
 
 /**
  * Created by rickjackson on 1/27/17.
  */
-public class Joker extends Card {
+class Joker extends Card {
 
     Joker(Rank rank, Suit suit) {
         this.rank = rank;

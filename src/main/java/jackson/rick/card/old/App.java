@@ -1,9 +1,9 @@
-package jackson.rick.card;
+package jackson.rick.card.old;
 
 /**
  * Created by rickjackson on 1/29/17.
  */
-public class App {
+class App {
 
     public static void main(String[] args) {
         Standard52CardDeck deck = new Standard52CardDeck();

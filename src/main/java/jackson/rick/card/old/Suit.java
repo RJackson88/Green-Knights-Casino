@@ -1,4 +1,4 @@
-package jackson.rick.card;
+package jackson.rick.card.old;
 
 import java.util.EnumMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by rickjackson on 1/27/17.
  */
-public enum Suit {
+enum Suit {
 
     CLUBS {
         @Override
@@ -114,4 +114,15 @@ public enum Suit {
     public static String fourColor(Suit suit) {
         return fourColors.get(suit);
     }
+    
+    public static Map<Suit, Integer> rankings = new EnumMap<>(Suit.class);
+    
+    static {
+        rankings.put(CLUBS, 1);
+        rankings.put(DIAMONDS, 2);
+        rankings.put(HEARTS, 3);
+        rankings.put(SPADES, 4);
+    }
+    
+    public static Integer rankings(Suit suit) { return rankings.get(suit); }
 }

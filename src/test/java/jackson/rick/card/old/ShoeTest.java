@@ -1,24 +1,26 @@
-package jackson.rick.card;
+package jackson.rick.card.old;
 
-import static org.junit.Assert.*;
+import jackson.rick.card.old.Shoe;
 import org.junit.Before;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 /**
- * Created by rickjackson on 1/27/17.
+ * Created by rickjackson on 1/31/17.
  */
-public class CardTest {
-    private Card card;
+public class ShoeTest {
+    private Shoe shoe;
 
     @Before
     public void setUp() {
-        card = new Card(Rank.ACE, Suit.CLUBS);
+        shoe = new Shoe();
     }
 
     @Test
-    public void toStringTest() {
-        String expected = "Ace of Clubs";
-        String actual = this.card.toString();
+    public void getSizeTest() {
+        Short expected = 4;
+        Short actual = this.shoe.getSize();
         System.out.println("Expected : " + expected);
         System.out.println("Actual   : " + actual);
         assertEquals(String.format("I expected the result to be: %s", expected),
@@ -26,9 +28,9 @@ public class CardTest {
     }
 
     @Test
-    public void symbolTest() {
-        String expected = "A♣";
-        String actual = this.card.symbol();
+    public void getPenetrationTest() {
+        Double expected = 0.75;
+        Double actual = this.shoe.getPenetration();
         System.out.println("Expected : " + expected);
         System.out.println("Actual   : " + actual);
         assertEquals(String.format("I expected the result to be: %s", expected),

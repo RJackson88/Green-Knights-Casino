@@ -1,9 +1,9 @@
-package jackson.rick.card;
+package jackson.rick.card.old;
 
 /**
  * Created by rickjackson on 1/30/17.
  */
-public class Shoe {
+class Shoe {
     private Short size;
     private Double penetration;
 

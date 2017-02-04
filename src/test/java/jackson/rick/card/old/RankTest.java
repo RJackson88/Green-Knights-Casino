@@ -1,5 +1,6 @@
-package jackson.rick.card;
+package jackson.rick.card.old;
 
+import jackson.rick.card.old.Rank;
 import org.junit.Before;
 import org.junit.Test;
 

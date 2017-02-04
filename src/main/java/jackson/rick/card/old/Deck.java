@@ -1,4 +1,4 @@
-package jackson.rick.card;
+package jackson.rick.card.old;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,12 +7,12 @@ import java.util.List;
 /**
  * Created by rickjackson on 1/27/17.
  */
-public class Deck {
+class Deck {
     List<Card> cards;
     List<Suit> suits;
     List<Rank> ranks;
 
-    Deck() {
+    public Deck() {
         this.cards = new ArrayList<>();
         this.suits  = new ArrayList<>();
         this.ranks = new ArrayList<>();

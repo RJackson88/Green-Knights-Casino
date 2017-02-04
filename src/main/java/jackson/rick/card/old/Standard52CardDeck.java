@@ -1,11 +1,11 @@
-package jackson.rick.card;
+package jackson.rick.card.old;
 
 /**
  * Created by rickjackson on 1/28/17.
  */
-public class Standard52CardDeck extends Deck {
+class Standard52CardDeck extends Deck {
 
-    Standard52CardDeck() {
+    public Standard52CardDeck() {
         this.constructRanks();
         this.constructSuits();
         this.constructDeck(this.ranks, this.suits);
