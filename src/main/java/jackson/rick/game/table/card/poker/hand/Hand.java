@@ -1,12 +1,10 @@
 package jackson.rick.game.table.card.poker.hand;
 
-import jackson.rick.card.Card;
-import jackson.rick.card.Deck;
+import jackson.rick.cards.Card;
+import jackson.rick.cards.Deck;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.Comparator;
 
 /**
  * Created by rickjackson on 2/3/17.
