@@ -16,9 +16,9 @@ public interface Suit {
     
     String getWhiteSymbol();
     
-    int getHighValue();
+    String getHighValue();
     
-    int getLowValue();
+    String getLowValue();
     
     void setSuit(String suit);
     
@@ -34,11 +34,11 @@ public interface Suit {
     
     void setWhiteSymbol(String symbol);
     
-    void setHighValue(int highValue);
+    void setHighValue(String highValue);
     
-    void setLowValue(int lowValue);
+    void setLowValue(String lowValue);
     
-    void setValues(int highValue, int lowValue);
+    void setValues(String highValue, String lowValue);
     
     void restoreDefaults();
 }

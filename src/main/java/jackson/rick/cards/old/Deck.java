@@ -8,9 +8,9 @@ import java.util.List;
  * Created by rickjackson on 1/27/17.
  */
 class Deck {
-    List<Card> cards;
-    List<Suit> suits;
-    List<Rank> ranks;
+    private List<Card> cards;
+    private List<Suit> suits;
+    private List<Rank> ranks;
 
     public Deck() {
         this.cards = new ArrayList<>();

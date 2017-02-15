@@ -3,23 +3,23 @@ package jackson.rick.cards.french.suit;
 /**
  * Created by rickjackson on 2/4/17.
  */
-class Heart implements Suit {
+public class Heart implements Suit {
     private String suit;
     private String symbol;
     private String color;
     private String blackSymbol;
     private String whiteSymbol;
-    private int highValue;
-    private int lowValue;
+    private String highValue;
+    private String lowValue;
     
-    Heart() {
+    public Heart() {
         this.suit = "Heart";
         this.symbol = "♥";
         this.color = "Red";
         this.blackSymbol = "♥";
         this.whiteSymbol = "♡";
-        this.highValue = 3;
-        this.lowValue = 3;
+        this.highValue = "h";
+        this.lowValue = "h";
     }
     
     public String toString() {
@@ -42,11 +42,11 @@ class Heart implements Suit {
         return this.whiteSymbol;
     }
     
-    public int getHighValue() {
+    public String getHighValue() {
         return this.highValue;
     }
     
-    public int getLowValue() {
+    public String getLowValue() {
         return this.lowValue;
     }
     
@@ -78,15 +78,15 @@ class Heart implements Suit {
         this.whiteSymbol = symbol;
     }
     
-    public void setHighValue(int highValue) {
+    public void setHighValue(String highValue) {
         this.highValue = highValue;
     }
     
-    public void setLowValue(int lowValue) {
+    public void setLowValue(String lowValue) {
         this.lowValue = lowValue;
     }
     
-    public void setValues(int highValue, int lowValue) {
+    public void setValues(String highValue, String lowValue) {
         this.highValue = highValue;
         this.lowValue = lowValue;
     }
@@ -97,7 +97,7 @@ class Heart implements Suit {
         this.color = "Red";
         this.blackSymbol = "♥";
         this.whiteSymbol = "♡";
-        this.highValue = 3;
-        this.lowValue = 3;
+        this.highValue = "h";
+        this.lowValue = "h";
     }
 }

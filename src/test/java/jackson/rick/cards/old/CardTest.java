@@ -16,23 +16,23 @@ public class CardTest {
         card = new Card(Rank.ACE, Suit.CLUBS);
     }
 
-    @Test
-    public void toStringTest() {
-        String expected = "Ace of Clubs";
-        String actual = this.card.toString();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                expected, actual);
-    }
-
-    @Test
-    public void symbolTest() {
-        String expected = "A♣";
-        String actual = this.card.shorthand();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                expected, actual);
-    }
+//    @Test
+//    public void toStringTest() {
+//        String expected = "Ace of Clubs";
+//        String actual = this.card.toString();
+//        System.out.println("Expected : " + expected);
+//        System.out.println("Actual   : " + actual);
+//        assertEquals(String.format("I expected the result to be: %s", expected),
+//                expected, actual);
+//    }
+//
+//    @Test
+//    public void symbolTest() {
+//        String expected = "A♣";
+//        String actual = this.card.shorthand();
+//        System.out.println("Expected : " + expected);
+//        System.out.println("Actual   : " + actual);
+//        assertEquals(String.format("I expected the result to be: %s", expected),
+//                expected, actual);
+//    }
 }

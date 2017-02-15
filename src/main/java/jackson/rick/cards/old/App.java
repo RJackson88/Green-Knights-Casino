@@ -5,12 +5,12 @@ package jackson.rick.cards.old;
  */
 class App {
 
-    public static void main(String[] args) {
-        Standard52CardDeck deck = new Standard52CardDeck();
-//        deck.printCards();
-        deck.printSymbols();
-        deck.shuffle();
-        System.out.println("\nSHUFFLING\n");
-        deck.printSymbols();
-    }
+//    public static void main(String[] args) {
+//        Standard52CardDeck deck = new Standard52CardDeck();
+////        deck.printCards();
+//        deck.printSymbols();
+//        deck.shuffle();
+//        System.out.println("\nSHUFFLING\n");
+//        deck.printSymbols();
+//    }
 }
