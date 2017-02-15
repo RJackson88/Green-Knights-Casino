@@ -14,7 +14,7 @@ public class Jack implements Rank {
     public Jack() {
         this.rank = "Jack";
         this.index = "J";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Face";
         this.highValue = 11;
         this.lowValue = 11;
@@ -106,7 +106,7 @@ public class Jack implements Rank {
     public void restoreDefaults() {
         this.rank = "Jack";
         this.index = "J";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Face";
         this.highValue = 11;
         this.lowValue = 11;

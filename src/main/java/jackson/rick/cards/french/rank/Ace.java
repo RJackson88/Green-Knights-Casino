@@ -14,7 +14,7 @@ public class Ace implements Rank {
     public Ace() {
         this.rank = "Ace";
         this.index = "A";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Face";
         this.highValue = 14;
         this.lowValue = 1;
@@ -62,7 +62,7 @@ public class Ace implements Rank {
     }
     
     public String getAltIndex() {
-        return altIndex == null ? index : altIndex;
+        return altIndex.equals("") ? index : altIndex;
     }
     
     public void setAltIndex(String altIndex) {
@@ -106,7 +106,7 @@ public class Ace implements Rank {
     public void restoreDefaults() {
         this.rank = "Ace";
         this.index = "A";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Face";
         this.highValue = 14;
         this.lowValue = 1;

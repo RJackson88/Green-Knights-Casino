@@ -14,7 +14,7 @@ public class Joker implements Rank {
     public Joker() {
         this.rank = "Joker";
         this.index = "Jkr";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Wild";
         this.highValue = 15;
         this.lowValue = 15;
@@ -106,7 +106,7 @@ public class Joker implements Rank {
     public void restoreDefaults() {
         this.rank = "Joker";
         this.index = "Jkr";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Wild";
         this.highValue = 15;
         this.lowValue = 0;

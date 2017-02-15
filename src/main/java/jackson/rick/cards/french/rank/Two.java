@@ -14,7 +14,7 @@ public class Two implements Rank {
     public Two() {
         this.rank = "Two";
         this.index = "2";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Pip";
         this.highValue = 2;
         this.lowValue = 2;
@@ -106,7 +106,7 @@ public class Two implements Rank {
     public void restoreDefaults() {
         this.rank = "Two";
         this.index = "2";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Pip";
         this.highValue = 2;
         this.lowValue = 2;

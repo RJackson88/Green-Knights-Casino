@@ -14,7 +14,7 @@ public class Eight implements Rank {
     public Eight() {
         this.rank = "Eight";
         this.index = "8";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Pip";
         this.highValue = 8;
         this.lowValue = 8;
@@ -106,7 +106,7 @@ public class Eight implements Rank {
     public void restoreDefaults() {
         this.rank = "Eight";
         this.index = "8";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Pip";
         this.highValue = 8;
         this.lowValue = 8;

@@ -14,7 +14,7 @@ public class Queen implements Rank {
     public Queen() {
         this.rank = "Queen";
         this.index = "Q";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Face";
         this.highValue = 12;
         this.lowValue = 12;
@@ -106,7 +106,7 @@ public class Queen implements Rank {
     public void restoreDefaults() {
         this.rank = "Queen";
         this.index = "Q";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Face";
         this.highValue = 12;
         this.lowValue = 12;

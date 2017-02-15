@@ -14,7 +14,7 @@ public class Three implements Rank {
     public Three() {
         this.rank = "Three";
         this.index = "3";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Pip";
         this.highValue = 3;
         this.lowValue = 3;
@@ -106,7 +106,7 @@ public class Three implements Rank {
     public void restoreDefaults() {
         this.rank = "Three";
         this.index = "3";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Pip";
         this.highValue = 3;
         this.lowValue = 3;

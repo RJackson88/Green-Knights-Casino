@@ -14,7 +14,7 @@ public class Seven implements Rank {
     public Seven() {
         this.rank = "Seven";
         this.index = "7";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Pip";
         this.highValue = 7;
         this.lowValue = 7;
@@ -106,7 +106,7 @@ public class Seven implements Rank {
     public void restoreDefaults() {
         this.rank = "Seven";
         this.index = "7";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Pip";
         this.highValue = 7;
         this.lowValue = 7;

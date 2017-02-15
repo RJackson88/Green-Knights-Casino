@@ -8,33 +8,33 @@ public interface Suit {
     @Override
     String toString();
     
-    String getSymbol();
-    
-    String getColor();
-    
-    String getBlackSymbol();
-    
-    String getWhiteSymbol();
-    
-    String getHighValue();
-    
-    String getLowValue();
-    
     void setSuit(String suit);
+    
+    String getSymbol();
     
     void setSymbol(String symbol);
     
+    String getColor();
+    
     void setColor(String color);
+    
+    String getBlackSymbol();
     
     void setToBlackSymbol();
     
-    void setToWhiteSymbol();
-    
     void setBlackSymbol(String symbol);
+    
+    String getWhiteSymbol();
+    
+    void setToWhiteSymbol();
     
     void setWhiteSymbol(String symbol);
     
+    String getHighValue();
+    
     void setHighValue(String highValue);
+    
+    String getLowValue();
     
     void setLowValue(String lowValue);
     

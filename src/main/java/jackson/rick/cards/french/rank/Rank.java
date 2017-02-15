@@ -5,7 +5,6 @@ package jackson.rick.cards.french.rank;
 
 public interface Rank {
     
-    @Override
     String toString();
     
     void setRank(String rank);

@@ -14,7 +14,7 @@ public class King implements Rank{
     public King() {
         this.rank = "King";
         this.index = "K";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Face";
         this.highValue = 13;
         this.lowValue = 13;
@@ -106,7 +106,7 @@ public class King implements Rank{
     public void restoreDefaults() {
         this.rank = "King";
         this.index = "K";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Face";
         this.highValue = 13;
         this.lowValue = 13;

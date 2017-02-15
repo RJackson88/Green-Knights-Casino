@@ -14,7 +14,7 @@ public class Six implements Rank {
     public Six() {
         this.rank = "Six";
         this.index = "6";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Pip";
         this.highValue = 6;
         this.lowValue = 6;
@@ -106,7 +106,7 @@ public class Six implements Rank {
     public void restoreDefaults() {
         this.rank = "Six";
         this.index = "6";
-        this.altIndex = null;
+        this.altIndex = "";
         this.type = "Pip";
         this.highValue = 6;
         this.lowValue = 6;
