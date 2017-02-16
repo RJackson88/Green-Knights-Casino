@@ -5,9 +5,6 @@ package jackson.rick.cards.french.suit;
  */
 public interface Suit {
     
-    @Override
-    String toString();
-    
     void setSuit(String suit);
     
     String getSymbol();
@@ -17,6 +14,10 @@ public interface Suit {
     String getColor();
     
     void setColor(String color);
+    
+    String getAltColor();
+    
+    void setAltColor(String color);
     
     String getBlackSymbol();
     
@@ -30,15 +31,15 @@ public interface Suit {
     
     void setWhiteSymbol(String symbol);
     
-    String getHighValue();
+    int getHighValue();
     
-    void setHighValue(String highValue);
+    void setHighValue(int highValue);
     
-    String getLowValue();
+    int getLowValue();
     
-    void setLowValue(String lowValue);
+    void setLowValue(int lowValue);
     
-    void setValues(String highValue, String lowValue);
+    void setValues(int highValue, int lowValue);
     
     void restoreDefaults();
 }

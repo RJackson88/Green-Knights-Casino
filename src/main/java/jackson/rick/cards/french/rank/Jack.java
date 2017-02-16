@@ -20,21 +20,17 @@ public class Jack implements Rank {
         this.lowValue = 11;
     }
     
-    //@Override
-    //public boolean equals(Object o) {
-    //    if (this == o) return true;
-    //    if (!(o instanceof Ace)) return false;
-    //
-    //    Ace ace = (Ace) o;
-    //
-    //    if (getHighValue() != ace.getHighValue()) return false;
-    //    if (getLowValue() != ace.getLowValue()) return false;
-    //    if (highHex != ace.highHex) return false;
-    //    if (lowHex != ace.lowHex) return false;
-    //    if (!rank.equals(ace.rank)) return false;
-    //    if (!getIndex().equals(ace.getIndex())) return false;
-    //    return getType().equals(ace.getType());
-    //}
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Jack)) return false;
+        
+        Jack jack = (Jack) o;
+        
+        return (getHighValue() != jack.getHighValue() ||
+                getLowValue() != jack.getLowValue()) &&
+                rank.equals(jack.rank);
+    }
     
     @Override
     public int hashCode() {
