@@ -5,6 +5,8 @@ package jackson.rick.cards.french.rank;
 
 public interface Rank {
     
+    String getRank();
+    
     void setRank(String rank);
     
     String getIndex();

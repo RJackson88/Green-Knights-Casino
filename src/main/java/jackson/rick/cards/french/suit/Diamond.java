@@ -30,10 +30,9 @@ public class Diamond implements Suit {
         if (!(o instanceof Diamond)) return false;
         
         Diamond diamond = (Diamond) o;
-        
-        return (getHighValue() != diamond.getHighValue() ||
-                getLowValue() != diamond.getLowValue()) &&
-                suit.equals(diamond.suit);
+    
+        return (getHighValue() == diamond.getHighValue() ||
+                getLowValue() == diamond.getLowValue());
     }
     
     @Override

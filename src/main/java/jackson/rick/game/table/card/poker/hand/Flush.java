@@ -23,23 +23,23 @@ public class Flush {
         Collections.sort(hand);
     }
     
-    public int compare(Card card1, Card card2) {
-        if (card1.getSuit().getHighValue()
-                == card2.getSuit().getHighValue()) {
-            if (card1.getRank().getHighValue()
-                    > card2.getRank().getHighValue()) {
-                return 1;
-            } else if (card1.getRank().getHighValue()
-                    < card2.getRank().getHighValue()) {
-                return -1;
-            } else {
-                return 0;
-            }
-        } else if (card1.getSuit().getHighValue()
-                        .compareTo(card2.getSuit().getHighValue()) == -1) {
-            return -1;
-        } else {
-            return 1;
-        }
-    }
+    //public int compare(Card card1, Card card2) {
+    //    if (card1.getSuit().getHighValue()
+    //            == card2.getSuit().getHighValue()) {
+    //        if (card1.getRank().getHighValue()
+    //                > card2.getRank().getHighValue()) {
+    //            return 1;
+    //        } else if (card1.getRank().getHighValue()
+    //                < card2.getRank().getHighValue()) {
+    //            return -1;
+    //        } else {
+    //            return 0;
+    //        }
+    //    } else if (card1.getSuit().getHighValue()
+    //                    .compareTo(card2.getSuit().getHighValue()) == -1) {
+    //        return -1;
+    //    } else {
+    //        return 1;
+    //    }
+    //}
 }

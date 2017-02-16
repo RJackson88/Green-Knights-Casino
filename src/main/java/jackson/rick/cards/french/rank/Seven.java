@@ -26,10 +26,9 @@ public class Seven implements Rank {
         if (!(o instanceof Seven)) return false;
         
         Seven seven = (Seven) o;
-        
-        return (getHighValue() != seven.getHighValue() ||
-                getLowValue() != seven.getLowValue()) &&
-                rank.equals(seven.rank);
+    
+        return (getHighValue() == seven.getHighValue() ||
+                getLowValue() == seven.getLowValue());
     }
     
     @Override
@@ -43,6 +42,10 @@ public class Seven implements Rank {
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+    
+    public String getRank() {
+        return rank;
     }
     
     public void setRank(String rank) {

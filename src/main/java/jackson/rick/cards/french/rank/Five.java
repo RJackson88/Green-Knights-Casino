@@ -26,10 +26,9 @@ public class Five implements Rank {
         if (!(o instanceof Five)) return false;
         
         Five five = (Five) o;
-        
-        return (getHighValue() != five.getHighValue() ||
-                getLowValue() != five.getLowValue()) &&
-                rank.equals(five.rank);
+    
+        return (getHighValue() == five.getHighValue() ||
+                getLowValue() == five.getLowValue());
     }
     
     @Override
@@ -43,6 +42,10 @@ public class Five implements Rank {
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+    
+    public String getRank() {
+        return rank;
     }
     
     public void setRank(String rank) {

@@ -26,10 +26,9 @@ public class Queen implements Rank {
         if (!(o instanceof Queen)) return false;
         
         Queen queen = (Queen) o;
-        
-        return (getHighValue() != queen.getHighValue() ||
-                getLowValue() != queen.getLowValue()) &&
-                rank.equals(queen.rank);
+    
+        return (getHighValue() == queen.getHighValue() ||
+                getLowValue() == queen.getLowValue());
     }
     
     @Override
@@ -43,6 +42,10 @@ public class Queen implements Rank {
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+    
+    public String getRank() {
+        return rank;
     }
     
     public void setRank(String rank) {

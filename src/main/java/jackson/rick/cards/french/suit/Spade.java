@@ -30,10 +30,9 @@ public class Spade implements Suit {
         if (!(o instanceof Spade)) return false;
         
         Spade spade = (Spade) o;
-        
-        return (getHighValue() != spade.getHighValue() ||
-                getLowValue() != spade.getLowValue()) &&
-                suit.equals(spade.suit);
+    
+        return (getHighValue() == spade.getHighValue() ||
+                getLowValue() == spade.getLowValue());
     }
     
     @Override

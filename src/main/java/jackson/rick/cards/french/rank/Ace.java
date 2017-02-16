@@ -27,9 +27,8 @@ public class Ace implements Rank {
         
         Ace ace = (Ace) o;
         
-        return (getHighValue() != ace.getHighValue() ||
-                getLowValue() != ace.getLowValue()) &&
-                rank.equals(ace.rank);
+        return (getHighValue() == ace.getHighValue() ||
+                getLowValue() == ace.getLowValue());
     }
     
     @Override
@@ -43,6 +42,10 @@ public class Ace implements Rank {
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+    
+    public String getRank() {
+        return rank;
     }
     
     public void setRank(String rank) {

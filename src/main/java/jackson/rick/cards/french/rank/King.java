@@ -26,10 +26,9 @@ public class King implements Rank{
         if (!(o instanceof King)) return false;
         
         King king = (King) o;
-        
-        return (getHighValue() != king.getHighValue() ||
-                getLowValue() != king.getLowValue()) &&
-                rank.equals(king.rank);
+    
+        return (getHighValue() == king.getHighValue() ||
+                getLowValue() == king.getLowValue());
     }
     
     @Override
@@ -43,6 +42,10 @@ public class King implements Rank{
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+    
+    public String getRank() {
+        return rank;
     }
     
     public void setRank(String rank) {

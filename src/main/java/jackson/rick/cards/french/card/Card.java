@@ -28,42 +28,18 @@ public class Card {
     }
     
     @Override
-    public String toString() {
-        return String.format("%s of %ss", this.getRank(), this.getSuit());
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Card)) return false;
+        
+        Card card = (Card) o;
+        
+        return getRank().getClass().getSimpleName()
+                == card.getRank().getClass().getSimpleName() &&
+                getSuit().getClass().getSimpleName()
+                == card.getSuit().getClass().getSimpleName();
     }
-    
-    public String toShorthand() {
-        return this.rank.getIndex() + this.suit.getSymbol();
-    }
-    
-    public Rank getRank() {
-        return this.rank;
-    }
-    
-    public Suit getSuit() {
-        return this.suit;
-    }
-    
-    public Card getCard() {
-        return this;
-    }
-    
-    public String getBack() {
-        return this.back;
-    }
-    
-    public void setBack(String back) {
-        this.back = back;
-    }
-    
-    public String getFace() {
-        return this.back;
-    }
-    
-    public void setFace(String face) {
-        this.face = face;
-    }
-    
+
     @Override
     public int hashCode() {
         int result = getRank().hashCode();
@@ -72,16 +48,54 @@ public class Card {
     }
     
     @Override
-    public boolean equals(Object o) {
-        if (canEqual(o)) {
-            Card c = objectToCard(o);
-            return (c.canEqual(this) &&
-                    this.getRank() == c.getRank() &&
-                    this.getSuit() == c.getSuit());
-        } else {
-            return false;
-        }
+    public String toString() {
+        return String.format("%s of %ss", getRank().getClass().getSimpleName(),
+                getSuit().getClass().getSimpleName());
     }
+    
+    public String toShorthand() {
+        return this.rank.getIndex() + this.suit.getSymbol();
+    }
+    
+    public Rank getRank() {
+        return rank;
+    }
+    
+    public Suit getSuit() {
+        return suit;
+    }
+    
+    public Card getCard() {
+        return this;
+    }
+    
+    public String getBack() {
+        return back;
+    }
+    
+    public void setBack(String back) {
+        this.back = back;
+    }
+    
+    public String getFace() {
+        return back;
+    }
+    
+    public void setFace(String face) {
+        this.face = face;
+    }
+    //
+    //@Override
+    //public boolean equals(Object o) {
+    //    if (canEqual(o)) {
+    //        Card c = objectToCard(o);
+    //        return (c.canEqual(this) &&
+    //                this.getRank() == c.getRank() &&
+    //                this.getSuit() == c.getSuit());
+    //    } else {
+    //        return false;
+    //    }
+    //}
     
     public boolean equalsIgnoreRank(Object o) {
         if (canEqual(o)) {

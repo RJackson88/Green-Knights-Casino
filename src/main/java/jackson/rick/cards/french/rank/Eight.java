@@ -26,10 +26,9 @@ public class Eight implements Rank {
         if (!(o instanceof Eight)) return false;
         
         Eight eight = (Eight) o;
-        
-        return (getHighValue() != eight.getHighValue() ||
-                getLowValue() != eight.getLowValue()) &&
-                rank.equals(eight.rank);
+    
+        return (getHighValue() == eight.getHighValue() ||
+                getLowValue() == eight.getLowValue());
     }
     
     @Override
@@ -43,6 +42,10 @@ public class Eight implements Rank {
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+    
+    public String getRank() {
+        return rank;
     }
     
     public void setRank(String rank) {

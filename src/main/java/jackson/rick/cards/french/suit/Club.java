@@ -30,10 +30,9 @@ public class Club implements Suit {
         if (!(o instanceof Club)) return false;
         
         Club club = (Club) o;
-        
-        return (getHighValue() != club.getHighValue() ||
-                getLowValue() != club.getLowValue()) &&
-                suit.equals(club.suit);
+    
+        return (getHighValue() == club.getHighValue() ||
+                getLowValue() == club.getLowValue());
     }
     
     @Override

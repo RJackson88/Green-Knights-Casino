@@ -30,10 +30,9 @@ public class Heart implements Suit {
         if (!(o instanceof Heart)) return false;
         
         Heart heart = (Heart) o;
-        
-        return (getHighValue() != heart.getHighValue() ||
-                getLowValue() != heart.getLowValue()) &&
-                suit.equals(heart.suit);
+    
+        return (getHighValue() == heart.getHighValue() ||
+                getLowValue() == heart.getLowValue());
     }
     
     @Override

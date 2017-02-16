@@ -26,10 +26,9 @@ public class Three implements Rank {
         if (!(o instanceof Three)) return false;
         
         Three three = (Three) o;
-        
-        return (getHighValue() != three.getHighValue() ||
-                getLowValue() != three.getLowValue()) &&
-                rank.equals(three.rank);
+    
+        return (getHighValue() == three.getHighValue() ||
+                getLowValue() == three.getLowValue());
     }
     
     @Override
@@ -43,6 +42,10 @@ public class Three implements Rank {
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+    
+    public String getRank() {
+        return rank;
     }
     
     public void setRank(String rank) {

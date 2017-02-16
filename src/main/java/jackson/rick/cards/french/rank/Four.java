@@ -26,10 +26,9 @@ public class Four implements Rank {
         if (!(o instanceof Four)) return false;
         
         Four four = (Four) o;
-        
-        return (getHighValue() != four.getHighValue() ||
-                getLowValue() != four.getLowValue()) &&
-                rank.equals(four.rank);
+    
+        return (getHighValue() == four.getHighValue() ||
+                getLowValue() == four.getLowValue());
     }
     
     @Override
@@ -43,6 +42,10 @@ public class Four implements Rank {
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+    
+    public String getRank() {
+        return rank;
     }
     
     public void setRank(String rank) {

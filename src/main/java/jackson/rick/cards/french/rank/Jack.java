@@ -26,10 +26,9 @@ public class Jack implements Rank {
         if (!(o instanceof Jack)) return false;
         
         Jack jack = (Jack) o;
-        
-        return (getHighValue() != jack.getHighValue() ||
-                getLowValue() != jack.getLowValue()) &&
-                rank.equals(jack.rank);
+    
+        return (getHighValue() == jack.getHighValue() ||
+                getLowValue() == jack.getLowValue());
     }
     
     @Override
@@ -43,6 +42,10 @@ public class Jack implements Rank {
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+    
+    public String getRank() {
+        return rank;
     }
     
     public void setRank(String rank) {

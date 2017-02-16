@@ -26,10 +26,9 @@ public class Joker implements Rank {
         if (!(o instanceof Joker)) return false;
         
         Joker joker = (Joker) o;
-        
-        return (getHighValue() != joker.getHighValue() ||
-                getLowValue() != joker.getLowValue()) &&
-                rank.equals(joker.rank);
+    
+        return (getHighValue() == joker.getHighValue() ||
+                getLowValue() == joker.getLowValue());
     }
     
     @Override
@@ -43,6 +42,10 @@ public class Joker implements Rank {
     @Override
     public String toString() {
         return this.getClass().getSimpleName();
+    }
+    
+    public String getRank() {
+        return rank;
     }
     
     public void setRank(String rank) {
