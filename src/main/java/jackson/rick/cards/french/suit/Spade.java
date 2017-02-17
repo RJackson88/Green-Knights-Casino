@@ -1,8 +1,8 @@
-package jackson.rick.cards.french.suit;
-
 /**
  * Created by rickjackson on 2/4/17.
  */
+package jackson.rick.cards.french.suit;
+
 public class Spade implements Suit {
     private String suit;
     private String symbol;

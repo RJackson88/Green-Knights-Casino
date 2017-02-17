@@ -34,16 +34,16 @@ public class Card {
         
         Card card = (Card) o;
         
-        return getRank().getClass().getSimpleName()
-                == card.getRank().getClass().getSimpleName() &&
-                getSuit().getClass().getSimpleName()
-                == card.getSuit().getClass().getSimpleName();
+        return getRank().getHighValue() == card.getRank().getHighValue() &&
+                getRank().getLowValue() == card.getRank().getLowValue() &&
+                getSuit().getHighValue() == card.getSuit().getLowValue() &&
+                getSuit().getLowValue() == card.getSuit().getLowValue();
     }
-
+    
     @Override
     public int hashCode() {
-        int result = getRank().hashCode();
-        result = 31 * result + getSuit().hashCode();
+        int result = ((rank == null) ? 0 : getRank().hashCode());
+        result = 31 * result + ((suit == null) ? 0 : getSuit().hashCode());
         return result;
     }
     
@@ -84,35 +84,25 @@ public class Card {
     public void setFace(String face) {
         this.face = face;
     }
-    //
-    //@Override
-    //public boolean equals(Object o) {
-    //    if (canEqual(o)) {
-    //        Card c = objectToCard(o);
-    //        return (c.canEqual(this) &&
-    //                this.getRank() == c.getRank() &&
-    //                this.getSuit() == c.getSuit());
-    //    } else {
-    //        return false;
-    //    }
-    //}
     
     public boolean equalsIgnoreRank(Object o) {
-        if (canEqual(o)) {
-            Card c = objectToCard(o);
-            return (c.canEqual(this));
-        } else {
-            return false;
-        }
+        if (this == o) return true;
+        if (!(o instanceof Card)) return false;
+        
+        Card card = (Card) o;
+        
+        return getSuit().getHighValue() == card.getSuit().getLowValue() &&
+                getSuit().getLowValue() == card.getSuit().getLowValue();
     }
     
     public boolean equalsIgnoreSuit(Object o) {
-        if (canEqual(o)) {
-            Card c = objectToCard(o);
-            return (c.canEqual(this));
-        } else {
-            return false;
-        }
+        if (this == o) return true;
+        if (!(o instanceof Card)) return false;
+        
+        Card card = (Card) o;
+        
+        return getRank().getHighValue() == card.getRank().getHighValue() &&
+                getRank().getLowValue() == card.getRank().getLowValue();
     }
     
     public boolean canEqual(Object o) {

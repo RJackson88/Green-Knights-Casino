@@ -27,8 +27,8 @@ public class Ace implements Rank {
         
         Ace ace = (Ace) o;
         
-        return (getHighValue() == ace.getHighValue() ||
-                getLowValue() == ace.getLowValue());
+        return getHighValue() == ace.getHighValue() &&
+                getLowValue() == ace.getLowValue();
     }
     
     @Override
