@@ -10,6 +10,7 @@ import static org.junit.Assert.assertEquals;
 
 public class HandTest {
     private Hand hand;
+    private Hand testClass;
     
     @Before
     public void setup() {
