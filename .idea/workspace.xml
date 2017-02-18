@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a935c61-8cba-4db5-bd9e-bad8eb05ddc6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/OldHand.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jackson/rick/game/table/card/poker/hand/StraightFlush.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/jackson/rick/game/table/card/poker/hand/HandTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/jackson/rick/game/table/card/poker/hand/HandTest.java" afterPath="$PROJECT_DIR$/src/test/java/jackson/rick/game/table/card/poker/hand/OldHandTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/OldHand.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/jackson/rick/game/table/card/poker/hand/CardTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/jackson/rick/game/table/card/poker/hand/CardTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jackson/rick/game/table/card/poker/hand/Hand.class" afterPath="$PROJECT_DIR$/target/classes/jackson/rick/game/table/card/poker/hand/Hand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/AbstractHand.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/AbstractHand.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Hand.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Hand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/StraightFlush.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/StraightFlush.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Column.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Column.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Combination.java" afterPath="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/roulette/bet/Combination.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,75 +46,15 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OldHand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/OldHand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="Hand.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Hand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3975">
-              <caret line="1459" column="20" lean-forward="false" selection-start-line="1459" selection-start-column="16" selection-end-line="1459" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractHand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/AbstractHand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="180">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/game/table/card/poker/hand/CardTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StraightFlush.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/StraightFlush.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OldHandTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/game/table/card/poker/hand/OldHandTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="82" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -163,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/cards/french/card/Deck.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/cards/old/Deck.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/cards/old/Standard52CardDeck.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/cards/old/Joker.java" />
@@ -177,7 +112,6 @@
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/cards/french/deck/Standard52.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/cards/french/deck/Deck.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/FiveOfAKind.java" />
-        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/game/table/card/poker/hand/HandTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/jackson/rick/cards/french/card/rank/CardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/cards/french/card/Joker.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/cards/french/suit/Suit.java" />
@@ -212,8 +146,10 @@
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/OldHand.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/AbstractHand.java" />
         <option value="$PROJECT_DIR$/src/test/java/jackson/rick/game/table/card/poker/hand/OldHandTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Hand.java" />
         <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/StraightFlush.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/HandDummy.java" />
+        <option value="$PROJECT_DIR$/src/test/java/jackson/rick/game/table/card/poker/hand/HandTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Hand.java" />
       </list>
     </option>
   </component>
@@ -285,9 +221,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -906,6 +839,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -937,7 +873,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CardTest.HandTest">
+  <component name="RunManager">
     <configuration default="false" name="AceTest.equalsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1036,7 +972,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="CardTest.HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="HandTest.HandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="jackson.rick.game.table.card.poker.hand.*" />
@@ -1047,7 +983,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="jackson.rick.game.table.card.poker.hand" />
-      <option name="MAIN_CLASS_NAME" value="jackson.rick.game.table.card.poker.hand.CardTest" />
+      <option name="MAIN_CLASS_NAME" value="jackson.rick.game.table.card.poker.hand.HandTest" />
       <option name="METHOD_NAME" value="HandTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1447,11 +1383,11 @@
       <item index="1" class="java.lang.String" itemvalue="JUnit.CardTest.equalsTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.CardTest.hashCodeTest" />
       <item index="3" class="java.lang.String" itemvalue="Application.ATest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CardTest.HandTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HandTest.HandTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CardTest.HandTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HandTest.HandTest" />
         <item index="1" class="java.lang.String" itemvalue="Application.ATest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.CardTest.hashCodeTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.CardTest.equalsTest" />
@@ -1489,22 +1425,14 @@
       <workItem from="1487076185278" duration="22045000" />
       <workItem from="1487172687243" duration="7704000" />
       <workItem from="1487283731740" duration="30099000" />
-      <workItem from="1487385756609" duration="7446000" />
+      <workItem from="1487385756609" duration="8093000" />
+      <workItem from="1487402659573" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="CardTest_HandTest - 2017.02.18 at 02h 04m 49s.xml">
       <configuration name="CardTest.HandTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CardTest_hashCodeTest - 2017.02.17 at 09h 18m 21s.xml">
-      <configuration name="CardTest.hashCodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CardTest_hashCodeTest - 2017.02.17 at 09h 18m 38s.xml">
-      <configuration name="CardTest.hashCodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CardTest_hashCodeTest - 2017.02.17 at 09h 18m 49s.xml">
-      <configuration name="CardTest.hashCodeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CardTest_hashCodeTest - 2017.02.17 at 09h 18m 53s.xml">
       <configuration name="CardTest.hashCodeTest" configurationId="JUnit" />
@@ -1524,9 +1452,18 @@
     <history-entry file="CardTest_hashCodeTest - 2017.02.17 at 09h 23m 26s.xml">
       <configuration name="CardTest.hashCodeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HandTest_HandTest - 2017.02.18 at 02h 20m 36s.xml">
+      <configuration name="HandTest.HandTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HandTest_HandTest - 2017.02.18 at 02h 20m 52s.xml">
+      <configuration name="HandTest.HandTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HandTest_HandTest - 2017.02.18 at 02h 21m 55s.xml">
+      <configuration name="HandTest.HandTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280637000" />
+    <option name="totallyTimeSpent" value="281318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="857" height="709" extended-state="0" />
@@ -1535,21 +1472,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64467007" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35287356" sideWeight="0.5070422" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38409474" sideWeight="0.49295774" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38409474" sideWeight="0.49295774" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13619632" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13865031" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19248827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282572" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1560,8 +1495,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64467007" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282572" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1612,13 +1549,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/Seat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/util/Database.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1688,9 +1618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1698,25 +1625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="55" column="4" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1094#1095#0" expanded="false" />
-            <element signature="e#1141#1142#0" expanded="false" />
-            <element signature="e#1182#1183#0" expanded="false" />
-            <element signature="e#1230#1231#0" expanded="false" />
-            <element signature="e#1270#1271#0" expanded="false" />
-            <element signature="e#1303#1304#0" expanded="false" />
-            <element signature="e#1343#1344#0" expanded="false" />
-            <element signature="e#1376#1377#0" expanded="false" />
-            <element signature="e#1412#1413#0" expanded="false" />
-            <element signature="e#1452#1453#0" expanded="false" />
-            <element signature="e#1488#1489#0" expanded="false" />
-            <element signature="e#1528#1529#0" expanded="false" />
-            <element signature="e#1570#1571#0" expanded="false" />
-            <element signature="e#1606#1607#0" expanded="false" />
-            <element signature="e#1648#1649#0" expanded="false" />
-            <element signature="e#1684#1685#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1724,7 +1632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1732,7 +1639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="43" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1740,10 +1646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding>
-            <element signature="e#1152#1153#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1751,10 +1653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="e#1144#1145#0" expanded="false" />
-            <element signature="e#1171#1172#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1762,10 +1660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="e#1144#1145#0" expanded="false" />
-            <element signature="e#1171#1172#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1773,10 +1667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-          <folding>
-            <element signature="e#1147#1148#0" expanded="false" />
-            <element signature="e#1174#1175#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1784,10 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-          <folding>
-            <element signature="e#1158#1159#0" expanded="false" />
-            <element signature="e#1185#1186#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1795,10 +1681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="e#1146#1147#0" expanded="false" />
-            <element signature="e#1173#1174#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1806,10 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="e#1144#1145#0" expanded="false" />
-            <element signature="e#1171#1172#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1817,10 +1695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding>
-            <element signature="e#1156#1157#0" expanded="false" />
-            <element signature="e#1183#1184#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1828,10 +1702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding>
-            <element signature="e#1153#1154#0" expanded="false" />
-            <element signature="e#1180#1181#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1839,10 +1709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="e#1135#1136#0" expanded="false" />
-            <element signature="e#1162#1163#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1850,10 +1716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="e#1139#1140#0" expanded="false" />
-            <element signature="e#1166#1167#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1861,10 +1723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding>
-            <element signature="e#1153#1154#0" expanded="false" />
-            <element signature="e#1180#1181#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1872,10 +1730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding>
-            <element signature="e#1135#1136#0" expanded="false" />
-            <element signature="e#1162#1163#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1883,7 +1737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="29" column="4" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1891,7 +1744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1899,9 +1751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1909,9 +1758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1919,9 +1765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1929,9 +1772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1939,7 +1779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1947,7 +1786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1973,7 +1811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1305">
           <caret line="104" column="72" lean-forward="false" selection-start-line="104" selection-start-column="72" selection-end-line="104" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1981,18 +1818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#455#456#0" expanded="false" />
-            <element signature="e#487#488#0" expanded="false" />
-            <element signature="e#571#572#0" expanded="false" />
-            <element signature="e#595#596#0" expanded="false" />
-            <element signature="e#634#635#0" expanded="false" />
-            <element signature="e#669#670#0" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#775#776#0" expanded="false" />
-            <element signature="e#810#811#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2000,10 +1825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#357#358#0" expanded="false" />
-            <element signature="e#397#398#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2011,18 +1832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="e#256#257#0" expanded="false" />
-            <element signature="e#306#307#0" expanded="false" />
-            <element signature="e#341#342#0" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#418#419#0" expanded="false" />
-            <element signature="e#464#465#0" expanded="false" />
-            <element signature="e#504#505#0" expanded="false" />
-            <element signature="e#535#536#0" expanded="false" />
-            <element signature="e#568#569#0" expanded="false" />
-            <element signature="e#603#604#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2030,7 +1839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2038,29 +1846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/OldHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/AbstractHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2080,24 +1865,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/game/table/card/poker/hand/CardTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/HandDummy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="75">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/AbstractHand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Hand.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/jackson/rick/game/table/card/poker/hand/HandTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3975">
-          <caret line="1459" column="20" lean-forward="false" selection-start-line="1459" selection-start-column="16" selection-end-line="1459" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/OldHand.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jackson/rick/game/table/card/poker/hand/Hand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

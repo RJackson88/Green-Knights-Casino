@@ -1,5 +1,5 @@
 /**
- * Created by rickjackson on 2/17/17.
+ * Created by rickjackson on 2/4/17.
  */
 package jackson.rick.game.table.card.poker.hand;
 
@@ -52,7 +52,7 @@ import java.util.function.UnaryOperator;
  * @since 1.2
  */
 
-public class Hand<E>
+public abstract class Hand<E>
         implements Collection<E>, List<E>, RandomAccess, Cloneable {
     
     /**

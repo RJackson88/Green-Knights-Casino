@@ -8,20 +8,20 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class CardTest {
+public class HandTest {
     private Hand hand;
     
     @Before
     public void setup() {
-        hand = new Hand();
+        hand = new HandDummy();
     }
     
     @Test
     public void HandTest() {
-        String expected = "Hand";
-        String actual = hand.getClass().toString();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
+        String expected = "HandDummy";
+        String actual = hand.getClass().getSimpleName();
+        System.out.println("Expected :" + expected);
+        System.out.println("Actual   :" + actual);
         assertEquals(String.format("I expected the result to be: %s", expected),
                 expected, actual);
     }
