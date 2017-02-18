@@ -18,7 +18,7 @@ public class Combination {
 
 //    void constructColumnNumbers() {
 //        int columnIndex = 0;
-//        List<String> tempList = new Hand<>();
+//        List<String> tempList = new OldHand<>();
 //
 //        for (int i = 1; i <= 36; i = i + 3) {
 //            if (i % 3 == 1) {

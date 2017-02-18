@@ -4,27 +4,26 @@ import jackson.rick.cards.french.card.Card;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.Comparator;
 
 /**
  * Created by rickjackson on 2/3/17.
  */
 public class StraightFlush {
-    private Hand hand;
+    private OldHand oldHand;
     private List<Card> flushHand;
     private String flushName;
     
-    public StraightFlush(Hand hand) {
-        this.hand = hand;
-        sortHandBySuitThenRank(this.hand);
+    public StraightFlush(OldHand oldHand) {
+        this.oldHand = oldHand;
+        sortHandBySuitThenRank(this.oldHand);
     }
     
-    public boolean checkForStraightFlush(Hand hand) {
+    public boolean checkForStraightFlush(OldHand oldHand) {
         return false;
     }
     
-    public void sortHandBySuitThenRank(Hand hand) {
-        Collections.sort(hand);
+    public void sortHandBySuitThenRank(OldHand oldHand) {
+        //Collections.sort(oldHand);
     }
     
     //public int compare(Card card1, Card card2) {

@@ -70,11 +70,11 @@ class Column extends Combination {
 //
 //    Column() {
 //        this.columns = new HashMap<>();
-//        this.c1 = new Hand<>();
-//        this.c2 = new Hand<>();
-//        this.c3 = new Hand<>();
-//        this.winningColumns = new Hand<>();
-//        this.losingColumns = new Hand<>();
+//        this.c1 = new OldHand<>();
+//        this.c2 = new OldHand<>();
+//        this.c3 = new OldHand<>();
+//        this.winningColumns = new OldHand<>();
+//        this.losingColumns = new OldHand<>();
 //        constructColumns();
 //    }
 //
