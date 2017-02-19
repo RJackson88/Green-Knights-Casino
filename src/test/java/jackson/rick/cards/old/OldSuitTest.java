@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by rickjackson on 1/28/17.
  */
-public class SuitTest {
+public class OldSuitTest {
 
     @Before
     public void setup() {}

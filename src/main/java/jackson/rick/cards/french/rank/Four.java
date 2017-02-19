@@ -1,23 +1,52 @@
+package jackson.rick.cards.french.rank;
+
 /**
  * Created by rickjackson on 2/3/17.
  */
-package jackson.rick.cards.french.rank;
-
-public class Four implements Rank {
-    private String rank;
-    private String index;
-    private String altIndex;
-    private String type;
-    private int highValue;
-    private int lowValue;
+public class Four extends Rank {
     
     public Four() {
-        this.rank = "Four";
-        this.index = "4";
-        this.altIndex = "";
-        this.type = "Pip";
-        this.highValue = 4;
-        this.lowValue = 4;
+        
+    }
+    
+    public Four(String index) {
+        super(index);
+    }
+    
+    public Four(String index, String alternateIndex) {
+        super(index, alternateIndex);
+    }
+    
+    public Four(int value) {
+        super(value);
+    }
+    
+    public Four(int highValue, int lowValue) {
+        super(highValue, lowValue);
+    }
+    
+    
+    // Bulk Operations
+    
+    void setDefaultProperties() {
+        index = "4";
+        alternateIndex = "";
+        type = "Face";
+        highValue = 4;
+        lowValue = 4;
+        wild = false;
+    }
+    
+    
+    // Comparison and Hashing
+    
+    @Override
+    public int hashCode() {
+        int result = super.hashCode();
+        result = 31 * result + toString().hashCode();
+        result = 31 * result + getHighValue();
+        result = 31 * result + getLowValue();
+        return result;
     }
     
     @Override
@@ -26,88 +55,8 @@ public class Four implements Rank {
         if (!(o instanceof Four)) return false;
         
         Four four = (Four) o;
-    
-        return (getHighValue() == four.getHighValue() ||
-                getLowValue() == four.getLowValue());
-    }
-    
-    @Override
-    public int hashCode() {
-        int result = ((rank == null) ? 0 : rank.hashCode());
-        result = 31 * result + getHighValue();
-        result = 31 * result + getLowValue();
-        return result;
-    }
-    
-    @Override
-    public String toString() {
-        return this.getClass().getSimpleName();
-    }
-    
-    public String getRank() {
-        return rank;
-    }
-    
-    public void setRank(String rank) {
-        this.rank = rank;
-    }
-    
-    public String getIndex() {
-        return index;
-    }
-    
-    public void setIndex(String index) {
-        this.index = index;
-    }
-    
-    public String getAltIndex() {
-        return altIndex == null ? index : altIndex;
-    }
-    
-    public void setAltIndex(String altIndex) {
-        this.altIndex = altIndex;
-    }
-    
-    public String getType() {
-        return type;
-    }
-    
-    public void setType(String type) {
-        this.type = type;
-    }
-    
-    public int getHighValue() {
-        return highValue;
-    }
-    
-    public void setHighValue(int highValue) {
-        this.highValue = highValue;
-    }
-    
-    public int getLowValue() {
-        return lowValue;
-    }
-    
-    public void setLowValue(int lowValue) {
-        this.lowValue = lowValue;
-    }
-    
-    public void setValues(int highValue, int lowValue) {
-        setHighValue(highValue);
-        setLowValue(lowValue);
-    }
-    
-    public void setValues(int value) {
-        setHighValue(value);
-        setLowValue(value);
-    }
-    
-    public void restoreDefaults() {
-        this.rank = "Four";
-        this.index = "4";
-        this.altIndex = "";
-        this.type = "Pip";
-        this.highValue = 4;
-        this.lowValue = 4;
+        
+        return ((getHighValue() == four.getHighValue()) &&
+                (getLowValue() == four.getLowValue()));
     }
 }

@@ -1,37 +1,180 @@
-/**
- * Created by rickjackson on 2/3/17.
- */
 package jackson.rick.cards.french.rank;
 
-public interface Rank {
+import java.util.Comparator;
+
+/**
+ * Created by rickjackson on 2/18/17.
+ */
+public abstract class Rank implements Comparable<Rank>, Comparator<Rank> {
+    // Map<String, Object> properties = new HashMap<>();
+    String index;
+    String alternateIndex;
+    String type;
+    int highValue;
+    int lowValue;
+    boolean wild;
     
-    String getRank();
+    public Rank() {
+        setDefaultProperties();
+    }
     
-    void setRank(String rank);
+    public Rank(String index) {
+        this();
+        setIndex(index);
+    }
     
-    String getIndex();
+    public Rank(String index, String alternateIndex) {
+        this(index);
+        setAlternateIndex(alternateIndex);
+    }
     
-    void setIndex(String index);
+    public Rank(int value) {
+        this(value, value);
+    }
     
-    String getAltIndex();
+    public Rank(int highValue, int lowValue) {
+        this();
+        setValues(highValue, lowValue);
+    }
     
-    void setAltIndex(String index);
     
-    String getType();
+    // Query and Modification Operations
     
-    void setType(String type);
+    String getIndex() {
+        return index;
+    }
     
-    int getHighValue();
+    void setIndex(String index) {
+        this.index = index;
+    }
     
-    void setHighValue(int highValue);
+    String getAlternateIndex() {
+        return alternateIndex;
+    }
     
-    int getLowValue();
+    void setAlternateIndex(String index) {
+        this.alternateIndex = alternateIndex;
+    }
     
-    void setLowValue(int lowValue);
+    String getType() {
+        return type;
+    }
     
-    void setValues(int highValue, int lowValue);
+    void setType(String type) {
+        this.type = type;
+    }
     
-    void setValues(int value);
+    public int getHighValue() {
+        return highValue;
+    }
     
-    void restoreDefaults();
+    public void setHighValue(int value) {
+        this.highValue = value;
+    }
+    
+    public void setHighValueToLowValue() {
+        this.highValue = this.lowValue;
+    }
+    
+    public int getLowValue() {
+        return lowValue;
+    }
+    
+    public void setLowValue(int value) {
+        this.lowValue = value;
+    }
+    
+    public void setLowValueToHighValue() {
+        this.lowValue = this.highValue;
+    }
+    
+    public boolean getWildStatus() {
+        return wild;
+    }
+    
+    public void setWild(boolean wild) {
+        this.wild = wild;
+    }
+    
+    public boolean isWild() {
+        return wild;
+    }
+    
+    
+    // Bulk Operations
+    
+    void setIndexToAlternate() {
+        setIndex(alternateIndex);
+    }
+    
+    void restoreDefaults() {
+        setDefaultProperties();
+    }
+    
+    public void setValues(int value) {
+        setHighValue(value);
+        setLowValue(value);
+    }
+    
+    void setValues(int highValue, int lowValue) {
+        setHighValue(highValue);
+        setLowValue(lowValue);
+    }
+    
+    abstract void setDefaultProperties();
+    
+    void setToNullValues() {
+        index = "";
+        alternateIndex = "";
+        type = "";
+        highValue = 0;
+        lowValue = 0;
+        wild = false;
+    }
+    
+    
+    // Comparison and Hashing
+    
+    @Override
+    public int hashCode() {
+        int result = ((toString() == "") ? 0 : toString().hashCode());
+        result = 31 * result + getHighValue();
+        result = 31 * result + getLowValue();
+        return result;
+    }
+    
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Rank)) return false;
+        
+        Rank rank = (Rank) o;
+        
+        return ((getHighValue() == rank.getHighValue()) &&
+                (getLowValue() == rank.getLowValue()));
+    }
+    
+    public int compareTo(Rank rank) {
+        return (getClass().getSimpleName()).compareTo(rank.getClass()
+                                                          .getSimpleName());
+    }
+    
+    public int compare(Rank rank1, Rank rank2) {
+        return (rank1.getHighValue() == rank2.getHighValue())
+               ? (rank2.getLowValue() - rank1.getLowValue())
+               : (rank2.getHighValue() - rank1.getLowValue());
+    }
+    
+    
+    // String Conversion
+    
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName();
+    }
+    
+    public String index() {
+        return getIndex();
+    }
+    
 }

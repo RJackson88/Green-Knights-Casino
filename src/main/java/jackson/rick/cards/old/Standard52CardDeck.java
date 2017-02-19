@@ -12,26 +12,26 @@ class Standard52CardDeck extends Deck {
 //    }
 //
 //    private void constructRanks() {
-//        this.ranks.add(Rank.ACE);
-//        this.ranks.add(Rank.TWO);
-//        this.ranks.add(Rank.THREE);
-//        this.ranks.add(Rank.FOUR);
-//        this.ranks.add(Rank.FIVE);
-//        this.ranks.add(Rank.SIX);
-//        this.ranks.add(Rank.SEVEN);
-//        this.ranks.add(Rank.EIGHT);
-//        this.ranks.add(Rank.NINE);
-//        this.ranks.add(Rank.TEN);
-//        this.ranks.add(Rank.JACK);
-//        this.ranks.add(Rank.QUEEN);
-//        this.ranks.add(Rank.KING);
+//        this.ranks.add(OldRank.ACE);
+//        this.ranks.add(OldRank.TWO);
+//        this.ranks.add(OldRank.THREE);
+//        this.ranks.add(OldRank.FOUR);
+//        this.ranks.add(OldRank.FIVE);
+//        this.ranks.add(OldRank.SIX);
+//        this.ranks.add(OldRank.SEVEN);
+//        this.ranks.add(OldRank.EIGHT);
+//        this.ranks.add(OldRank.NINE);
+//        this.ranks.add(OldRank.TEN);
+//        this.ranks.add(OldRank.JACK);
+//        this.ranks.add(OldRank.QUEEN);
+//        this.ranks.add(OldRank.KING);
 //    }
 //
 //    private void constructSuits() {
-//        this.suits.add(Suit.CLUBS);
-//        this.suits.add(Suit.DIAMONDS);
-//        this.suits.add(Suit.HEARTS);
-//        this.suits.add(Suit.SPADES);
+//        this.suits.add(OldSuit.CLUBS);
+//        this.suits.add(OldSuit.DIAMONDS);
+//        this.suits.add(OldSuit.HEARTS);
+//        this.suits.add(OldSuit.SPADES);
 //    }
 //
 //    void printCards() {

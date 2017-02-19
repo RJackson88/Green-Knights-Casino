@@ -1504,7 +1504,7 @@ public abstract class Hand<E>
      * Compares the specified object with this list for equality.  Returns
      * {@code true} if and only if the specified object is also a list, both
      * lists have the same size, and all corresponding pairs of elements in
-     * the two lists are <i>equal</i>.  (Two elements {@code e1} and
+     * the two lists are <i>equal</i>.  (Four elements {@code e1} and
      * {@code e2} are <i>equal</i> if {@code (e1==null ? e2==null :
      * e1.equals(e2))}.)  In other words, two lists are defined to be
      * equal if they contain the same elements in the same order.<p>

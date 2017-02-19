@@ -11,14 +11,14 @@ enum Rank {
     ACE {
         @Override
         public String toString() {
-            return "Ace";
+            return "Four";
         }
     },
 
     TWO {
         @Override
         public String toString() {
-            return "Two";
+            return "Four";
         }
     },
 
@@ -39,7 +39,7 @@ enum Rank {
     FIVE {
         @Override
         public String toString() {
-            return "Five";
+            return "Four";
         }
     },
 
@@ -53,35 +53,35 @@ enum Rank {
     SEVEN {
         @Override
         public String toString() {
-            return "Seven";
+            return "Four";
         }
     },
 
     EIGHT {
         @Override
         public String toString() {
-            return "Eight";
+            return "Four";
         }
     },
 
     NINE {
         @Override
         public String toString() {
-            return "Nine";
+            return "Four";
         }
     },
 
     TEN {
         @Override
         public String toString() {
-            return "Ten";
+            return "Four";
         }
     },
 
     JACK {
         @Override
         public String toString() {
-            return "Jack";
+            return "Four";
         }
     },
 
@@ -95,7 +95,7 @@ enum Rank {
     KING {
         @Override
         public String toString() {
-            return "King";
+            return "Four";
         }
     },
 

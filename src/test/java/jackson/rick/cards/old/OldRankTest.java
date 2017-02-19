@@ -1,47 +1,42 @@
-/**
- * Created by rickjackson on 2/15/17.
- */
-package jackson.rick.cards.french.rank;
+package jackson.rick.cards.old;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class AceTest {
-    private Ace ace;
-    private Ace ace2;
-    
+/**
+ * Created by rickjackson on 1/28/17.
+ */
+public class OldRankTest {
+
     @Before
-    public void setup() {
-        this.ace = new Ace();
-        this.ace2 = new Ace();
-    }
-    
+    public void setup() {}
+
     @Test
-    public void equalsTest() {
-        boolean expected = true;
-        boolean actual = ace.equals(ace2);
+    public void RankTest() {
+        Rank expected = Rank.ACE;
+        Rank actual = Rank.ACE;
         System.out.println("Expected : " + expected);
         System.out.println("Actual   : " + actual);
         assertEquals(String.format("I expected the result to be: %s", expected),
                 expected, actual);
     }
-    
+
     @Test
     public void toStringTest() {
-        String expected = "Ace";
-        String actual = ace.toString();
+        String expected = "Four";
+        String actual = Rank.ACE.toString();
         System.out.println("Expected : " + expected);
         System.out.println("Actual   : " + actual);
         assertEquals(String.format("I expected the result to be: %s", expected),
                 expected, actual);
     }
-    
+
     @Test
-    public void AceTest() {
-        boolean expected = true;
-        boolean actual = Rank.class.isInstance(new Ace());
+    public void shorthandTest() {
+        String expected = "A";
+        String actual = Rank.shorthand(Rank.ACE);
         System.out.println("Expected : " + expected);
         System.out.println("Actual   : " + actual);
         assertEquals(String.format("I expected the result to be: %s", expected),

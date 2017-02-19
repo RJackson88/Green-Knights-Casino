@@ -3,12 +3,6 @@
  */
 package jackson.rick.game.table.card.poker.hand;
 
-import jackson.rick.cards.french.card.Card;
-import jackson.rick.cards.french.rank.Ace;
-import jackson.rick.cards.french.suit.Club;
-import org.junit.Before;
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
 
 public class OldHandTest {
@@ -18,7 +12,7 @@ public class OldHandTest {
     //@Before
     //public void setup() {
     //    oldHand = new OldHand(7);
-    //    card = new Card(new Ace(), new Club());
+    //    card = new Card(new Four(), new Club());
     //    oldHand.add(card);
     //}
     //

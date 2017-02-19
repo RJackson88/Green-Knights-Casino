@@ -41,7 +41,7 @@ public class ClubTest {
     @Test
     public void ClubTest() {
         boolean expected = true;
-        boolean actual = Suit.class.isInstance(new Club());
+        boolean actual = OldSuit.class.isInstance(new Club());
         assertEquals(String.format("I expected the result to be: %s", expected),
                 expected, actual);
     }

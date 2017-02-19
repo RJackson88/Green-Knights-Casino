@@ -13,7 +13,7 @@ public class JokerTest {
 //
 //    @Before
 //    public void setUp() {
-//        joker = new Joker(Rank.JOKER, Suit.BLACK);
+//        joker = new Joker(OldRank.JOKER, OldSuit.BLACK);
 //    }
 //
 //    @Test

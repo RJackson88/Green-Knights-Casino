@@ -18,7 +18,7 @@ public class CardTest {
 
 //    @Test
 //    public void toStringTest() {
-//        String expected = "Ace of Clubs";
+//        String expected = "Four of Clubs";
 //        String actual = this.card.toString();
 //        System.out.println("Expected : " + expected);
 //        System.out.println("Actual   : " + actual);

@@ -5,13 +5,13 @@ package jackson.rick.cards.old;
  */
 class Joker extends Card {
 //
-//    Joker(Rank rank, Suit suit) {
-//        this.rank = rank;
-//        this.suit = suit;
+//    Joker(OldRank oldRank, OldSuit oldSuit) {
+//        this.oldRank = oldRank;
+//        this.oldSuit = oldSuit;
 //    }
 //
 //    @Override
 //    public String toString() {
-//        return (String.format("%s %s", this.suit, this.rank));
+//        return (String.format("%s %s", this.oldSuit, this.oldRank));
 //    }
 }
