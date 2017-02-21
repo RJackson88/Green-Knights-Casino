@@ -167,7 +167,7 @@ public abstract class Suit implements Comparable<Suit>, Comparator<Suit> {
     
     @Override
     public int hashCode() {
-        int result = ((toString() == "") ? 0 : toString().hashCode());
+        int result = ((toString().equals("")) ? 0 : (toString().hashCode()));
         result = 31 * result + getHighValue();
         result = 31 * result + getLowValue();
         return result;
@@ -180,15 +180,20 @@ public abstract class Suit implements Comparable<Suit>, Comparator<Suit> {
         
         Suit suit = (Suit) o;
         
-        return ((getHighValue() == suit.getHighValue()) &&
-                (getLowValue() == suit.getLowValue()));
+        return ((this.getHighValue() == suit.getHighValue()) &&
+                (this.getLowValue() == suit.getLowValue()));
     }
     
+    @Override
     public int compareTo(Suit suit) {
-       return (getClass().getSimpleName()).compareTo(suit.getClass()
-                                                         .getSimpleName());
+        return (getHighValue() == suit.getHighValue())
+                ? (this.getClass()
+                       .getSimpleName()).compareTo(suit.getClass()
+                                                       .getSimpleName())
+                : (suit.getHighValue() - this.getHighValue());
     }
     
+    @Override
     public int compare(Suit suit1, Suit suit2) {
         return (suit1.getHighValue() == suit2.getHighValue())
                 ? (suit2.getLowValue() - suit1.getLowValue())

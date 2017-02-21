@@ -13,12 +13,12 @@ public class JokerTest {
 //
 //    @Before
 //    public void setUp() {
-//        joker = new Joker(OldRank.JOKER, OldSuit.BLACK);
+//        joker = new JokerCard(OldRank.JOKER, OldSuit.BLACK);
 //    }
 //
 //    @Test
 //    public void toStringTest() {
-//        String expected = "Black Joker";
+//        String expected = "Black JokerCard";
 //        String actual = joker.toString();
 //        System.out.println("Expected : " + expected);
 //        System.out.println("Actual   : " + actual);

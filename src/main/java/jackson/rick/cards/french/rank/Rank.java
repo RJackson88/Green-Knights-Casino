@@ -137,7 +137,7 @@ public abstract class Rank implements Comparable<Rank>, Comparator<Rank> {
     
     @Override
     public int hashCode() {
-        int result = ((toString() == "") ? 0 : toString().hashCode());
+        int result = ((toString() == "") ? 0 : (toString().hashCode()));
         result = 31 * result + getHighValue();
         result = 31 * result + getLowValue();
         return result;
@@ -150,19 +150,22 @@ public abstract class Rank implements Comparable<Rank>, Comparator<Rank> {
         
         Rank rank = (Rank) o;
         
-        return ((getHighValue() == rank.getHighValue()) &&
-                (getLowValue() == rank.getLowValue()));
+        return ((this.getHighValue() == rank.getHighValue()) &&
+                (this.getLowValue() == rank.getLowValue()));
     }
     
+    @Override
     public int compareTo(Rank rank) {
-        return (getClass().getSimpleName()).compareTo(rank.getClass()
-                                                          .getSimpleName());
+        return (this.getClass()
+                    .getSimpleName()).compareTo(rank.getClass()
+                                                    .getSimpleName());
     }
     
+    @Override
     public int compare(Rank rank1, Rank rank2) {
         return (rank1.getHighValue() == rank2.getHighValue())
-               ? (rank2.getLowValue() - rank1.getLowValue())
-               : (rank2.getHighValue() - rank1.getLowValue());
+                ? (rank2.getLowValue() - rank1.getLowValue())
+                : (rank2.getHighValue() - rank1.getLowValue());
     }
     
     

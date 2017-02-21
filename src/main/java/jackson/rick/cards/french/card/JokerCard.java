@@ -4,27 +4,30 @@
 package jackson.rick.cards.french.card;
 
 import jackson.rick.cards.french.rank.OldRank;
+import jackson.rick.cards.french.rank.Rank;
 import jackson.rick.cards.french.suit.OldSuit;
+import jackson.rick.cards.french.suit.Suit;
 
-public class Joker extends Card {
+public class JokerCard extends Card {
+    
     // private String variation;
     //
-    // public Joker() {
+    // public JokerCard() {
     //     super(null, null);
     //     this.variation = null;
     // }
     //
-    // public Joker(OldRank oldRank) {
+    // public JokerCard(OldRank oldRank) {
     //     super(oldRank, null);
     //     this.variation = null;
     // }
     //
-    // public Joker(OldRank oldRank, OldSuit oldSuit) {
+    // public JokerCard(OldRank oldRank, OldSuit oldSuit) {
     //     super(oldRank, oldSuit);
     //     this.variation = null;
     // }
     //
-    // public Joker(OldRank oldRank, String variation) {
+    // public JokerCard(OldRank oldRank, String variation) {
     //     super(oldRank, null);
     //     this.variation = variation;
     // }

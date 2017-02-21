@@ -1,6 +1,7 @@
 package jackson.rick.cards.french.suit;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,11 +11,13 @@ import org.junit.Test;
 public class SuitTest {
     private Suit club;
     private Suit diamond;
+    private Club clubClass;
     
     @Before
     public void setup() {
-        this.club = new Club();
-        this.diamond = new Diamond();
+        clubClass = new Club();
+        club = new Club();
+        diamond = new Diamond();
     }
     
     @Test
@@ -95,6 +98,9 @@ public class SuitTest {
         System.out.println("Actual   : " + actual);
         assertEquals(String.format("I expected the result to be: %s", expected),
                      expected, actual);
+        System.out.println(clubClass.hashCode());
+        System.out.println(club.hashCode());
+        System.out.println(diamond.hashCode());
     }
     
     @Test

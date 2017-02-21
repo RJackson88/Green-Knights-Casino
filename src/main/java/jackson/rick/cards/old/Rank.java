@@ -101,7 +101,7 @@ enum Rank {
 
     JOKER {
         @Override
-        public String toString() { return "Joker"; }
+        public String toString() { return "JokerCard"; }
     },
     
     WILD {

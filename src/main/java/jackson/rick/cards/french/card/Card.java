@@ -7,28 +7,73 @@ import jackson.rick.cards.french.suit.Suit;
  * Created by rickjackson on 2/4/17.
  */
 public class Card {
-    public static Rank RANK;
-    public static Suit SUIT;
+    public Rank rank;
+    public Suit suit;
     public String back;
     public String face;
 
     public Card() {
-
+        this(null, null);
     }
 
     public Card(Rank rank, Suit suit) {
-        this.RANK = rank;
-        this.SUIT = suit;
-        this.back = "\uD83C\uDCA0";
+        this.rank = rank;
+        this.suit = suit;
         this.face = "\uD83C\uDCA0";
+        this.back = "\uD83C\uDCA0";
     }
 
     public Card(Rank rank) {
-        
+        this(rank, null);
+    }
+    
+    public Card(Suit suit) {
+        this(null, suit);
     }
     
     
     // Query and Modification Operations
+    
+    public String getFace() {
+        return face;
+    }
+    
+    public void setFace(String face) {
+        this.face = face;
+    }
+    
+    public String getBack() {
+        return back;
+    }
+    
+    public void setBack(String back) {
+        this.back = back;
+    }
+    
+    public boolean isWild() {
+        return rankIsWild() && suitIsWild();
+    }
+    
+    public boolean rankIsWild() {
+        return (rank != null) && rank.isWild();
+    }
+    
+    public boolean suitIsWild() {
+        return (suit != null) && suit.isWild();
+    }
+    
+    public void setWild(boolean wild) {
+        if (rank != null) rank.setWild(wild);
+        if (suit != null) suit.setWild(wild);
+    }
+    
+    public void setWild() {
+        setWild(true);
+    }
+    
+    public void unsetWild() {
+        setWild(false);
+    }
     
     
     // Bulk Operations
@@ -38,8 +83,9 @@ public class Card {
     
     @Override
     public int hashCode() {
-        int result = ((RANK == null) ? 0 : RANK.hashCode());
-        result = 31 * result + ((SUIT == null) ? 0 : SUIT.hashCode());
+        int result = ((rank == null) ? 0 : rank.getClass().hashCode());
+        result = 31 * result + ((suit == null) ? 0
+                                               : suit.getClass().hashCode());
         return result;
     }
     
@@ -49,28 +95,26 @@ public class Card {
         if (!(o instanceof Card)) return false;
         
         Card card = (Card) o;
-        if ((RANK.isWild() || card.RANK.isWild()) &&
-            (SUIT.isWild() || card.SUIT.isWild()))
-            return true;
+        if (this.isWild() || card.isWild()) return true;
         
-        return ((RANK.getHighValue() == card.RANK.getHighValue()) &&
-                (RANK.getLowValue() == card.RANK.getLowValue()) &&
-                (SUIT.getHighValue() == card.SUIT.getHighValue()) &&
-                (SUIT.getLowValue() == card.SUIT.getLowValue()));
+        return ((this.rank.equals(card.rank)) &&
+                (this.suit.equals(card.suit)));
     }
     
     public int compareTo(Card card) {
-        if (SUIT.getLowValue() == card.SUIT.getLowValue())
-            return (RANK.getLowValue() - card.RANK.getLowValue());
-        else
-            return (card.SUIT.getLowValue() - SUIT.getLowValue());
+        if (this.equals(card)) {
+            return 0;
+        } else {
+            return (this.rank.equals(card.rank))
+                    ? (this.suit.compareTo(card.suit))
+                    : (rank.compareTo(card.rank));
+        }
     }
     
     public int compare(Card card1, Card card2) {
-        if (card1.RANK.getHighValue() == card2.RANK.getHighValue())
-            return (card2.SUIT.getHighValue() - card1.SUIT.getHighValue());
-        else
-            return (card2.RANK.getHighValue() - card2.RANK.getHighValue());
+        return (card1.rank.getHighValue() == card2.rank.getHighValue())
+                ? (card1.suit.getHighValue() - card2.suit.getHighValue())
+                : (card2.rank.getHighValue() - card1.rank.getHighValue());
     }
     
     
@@ -78,102 +122,10 @@ public class Card {
     
     @Override
     public String toString() {
-        return RANK.toString() + " of " + SUIT.toString();
+        return rank.toString() + " of " + suit.toString() + "s";
     }
     
     public String toShorthand() {
-        return RANK.index() + SUIT.symbol();
+        return rank.index() + suit.symbol();
     }
-    
-    
-    
-    
-    
-    
-    //
-    // @Override
-    // public boolean equals(Object o) {
-    //     if (this == o) return true;
-    //     if (!(o instanceof Card)) return false;
-    //
-    //     Card card = (Card) o;
-    //
-    //     return getOldRank().getHighValue() == card.getOldRank().getHighValue() &&
-    //             getOldRank().getLowValue() == card.getOldRank().getLowValue() &&
-    //             getOldSuit().getHighValue() == card.getOldSuit().getLowValue() &&
-    //             getOldSuit().getLowValue() == card.getOldSuit().getLowValue();
-    // }
-    //
-    // @Override
-    // public int hashCode() {
-    //     int result = ((oldRank == null) ? 0 : getOldRank().hashCode());
-    //     result = 31 * result + ((oldSuit == null) ? 0 : getOldSuit().hashCode());
-    //     return result;
-    // }
-    //
-    // @Override
-    // public String toString() {
-    //     return String.format("%s of %ss", getOldRank().getClass().getSimpleName(),
-    //             getOldSuit().getClass().getSimpleName());
-    // }
-    //
-    // public String toShorthand() {
-    //     return this.oldRank.getIndex() + this.oldSuit.getSymbol();
-    // }
-    //
-    // public OldRank getOldRank() {
-    //     return oldRank;
-    // }
-    //
-    // public OldSuit getOldSuit() {
-    //     return oldSuit;
-    // }
-    //
-    // public Card getCard() {
-    //     return this;
-    // }
-    //
-    // public String getBack() {
-    //     return back;
-    // }
-    //
-    // public void setBack(String back) {
-    //     this.back = back;
-    // }
-    //
-    // public String getFace() {
-    //     return back;
-    // }
-    //
-    // public void setFace(String face) {
-    //     this.face = face;
-    // }
-    //
-    // public boolean equalsIgnoreRank(Object o) {
-    //     if (this == o) return true;
-    //     if (!(o instanceof Card)) return false;
-    //
-    //     Card card = (Card) o;
-    //
-    //     return getOldSuit().getHighValue() == card.getOldSuit().getLowValue() &&
-    //             getOldSuit().getLowValue() == card.getOldSuit().getLowValue();
-    // }
-    //
-    // public boolean equalsIgnoreSuit(Object o) {
-    //     if (this == o) return true;
-    //     if (!(o instanceof Card)) return false;
-    //
-    //     Card card = (Card) o;
-    //
-    //     return getOldRank().getHighValue() == card.getOldRank().getHighValue() &&
-    //             getOldRank().getLowValue() == card.getOldRank().getLowValue();
-    // }
-    //
-    // public boolean canEqual(Object o) {
-    //     return o instanceof Card;
-    // }
-    //
-    // private Card objectToCard(Object o) {
-    //     return (Card) o;
-    // }
 }

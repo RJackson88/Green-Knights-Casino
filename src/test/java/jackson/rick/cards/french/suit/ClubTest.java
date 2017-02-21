@@ -1,48 +1,40 @@
-/**
- * Created by rickjackson on 2/15/17.
- */
 package jackson.rick.cards.french.suit;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-
+/**
+ * Created by rickjackson on 2/20/17.
+ */
 public class ClubTest {
-    private Club club;
-    private Club club2;
+    private Club club1;
+    private Suit club2;
+    private Club club3;
+    private Suit diamond;
     
     @Before
     public void setup() {
-        this.club = new Club();
-        this.club2 = new Club();
+        club1 = new Club();
+        club2 = new Club("Symbol", "Other");
+        club3 = new Club(2);
+        diamond = new Diamond();
+    }
+    
+    @Test
+    public void hashCodeTest() {
+        assertEquals(club1.hashCode(), club2.hashCode());
+        assertTrue(club1.hashCode() != club3.hashCode());
+        assertFalse(club1.hashCode() == club3.hashCode());
+        assertFalse(club2.hashCode() == diamond.hashCode());
     }
     
     @Test
     public void equalsTest() {
-        boolean expected = true;
-        boolean actual = club.equals(club2);
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                expected, actual);
-    }
-    
-    @Test
-    public void toStringTest() {
-        String expected = "Club";
-        String actual = club.toString();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                expected, actual);
-    }
-    
-    @Test
-    public void ClubTest() {
-        boolean expected = true;
-        boolean actual = OldSuit.class.isInstance(new Club());
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                expected, actual);
+        assertTrue(club1.equals(club2));
+        assertFalse(club1.equals(club3));
+        assertFalse(club1.equals(diamond));
     }
 }
