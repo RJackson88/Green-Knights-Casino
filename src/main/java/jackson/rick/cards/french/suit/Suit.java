@@ -180,24 +180,17 @@ public abstract class Suit implements Comparable<Suit>, Comparator<Suit> {
         
         Suit suit = (Suit) o;
         
-        return ((this.getHighValue() == suit.getHighValue()) &&
-                (this.getLowValue() == suit.getLowValue()));
+        return (this.getHighValue() == suit.getHighValue());
     }
     
     @Override
     public int compareTo(Suit suit) {
-        return (getHighValue() == suit.getHighValue())
-                ? (this.getClass()
-                       .getSimpleName()).compareTo(suit.getClass()
-                                                       .getSimpleName())
-                : (suit.getHighValue() - this.getHighValue());
+        return (suit.getHighValue() - this.getHighValue());
     }
     
     @Override
     public int compare(Suit suit1, Suit suit2) {
-        return (suit1.getHighValue() == suit2.getHighValue())
-                ? (suit2.getLowValue() - suit1.getLowValue())
-                : (suit2.getHighValue() - suit1.getLowValue());
+        return (suit2.getHighValue() - suit1.getHighValue());
     }
     
     

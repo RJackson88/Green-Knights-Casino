@@ -9,21 +9,21 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class HandTest {
-    private Hand hand;
-    private Hand testClass;
-    
-    @Before
-    public void setup() {
-        hand = new HandDummy();
-    }
-    
-    @Test
-    public void HandTest() {
-        String expected = "HandDummy";
-        String actual = hand.getClass().getSimpleName();
-        System.out.println("Expected :" + expected);
-        System.out.println("Actual   :" + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                expected, actual);
-    }
+    // private Hand hand;
+    // private Hand testClass;
+    //
+    // @Before
+    // public void setup() {
+    //     hand = new HandDummy();
+    // }
+    //
+    // @Test
+    // public void HandTest() {
+    //     String expected = "HandDummy";
+    //     String actual = hand.getClass().getSimpleName();
+    //     System.out.println("Expected :" + expected);
+    //     System.out.println("Actual   :" + actual);
+    //     assertEquals(String.format("I expected the result to be: %s", expected),
+    //             expected, actual);
+    // }
 }

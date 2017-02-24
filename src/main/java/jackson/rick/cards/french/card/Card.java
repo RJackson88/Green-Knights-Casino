@@ -1,19 +1,24 @@
 package jackson.rick.cards.french.card;
 
+import jackson.rick.cards.french.rank.NullRank;
 import jackson.rick.cards.french.rank.Rank;
+import jackson.rick.cards.french.suit.NullSuit;
 import jackson.rick.cards.french.suit.Suit;
+
+import java.util.Comparator;
+import java.util.Objects;
 
 /**
  * Created by rickjackson on 2/4/17.
  */
-public class Card {
-    public Rank rank;
-    public Suit suit;
+public class Card implements Comparable<Card>, Comparator<Card> {
+    public final Rank rank;
+    public final Suit suit;
     public String back;
     public String face;
 
     public Card() {
-        this(null, null);
+        this(new NullRank(), new NullSuit());
     }
 
     public Card(Rank rank, Suit suit) {
@@ -101,6 +106,7 @@ public class Card {
                 (this.suit.equals(card.suit)));
     }
     
+    @Override
     public int compareTo(Card card) {
         if (this.equals(card)) {
             return 0;
@@ -111,6 +117,7 @@ public class Card {
         }
     }
     
+    @Override
     public int compare(Card card1, Card card2) {
         return (card1.rank.getHighValue() == card2.rank.getHighValue())
                 ? (card1.suit.getHighValue() - card2.suit.getHighValue())

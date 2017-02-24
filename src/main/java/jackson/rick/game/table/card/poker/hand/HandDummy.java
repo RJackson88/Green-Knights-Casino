@@ -3,5 +3,5 @@
  */
 package jackson.rick.game.table.card.poker.hand;
 
-public class HandDummy extends Hand {
+public class HandDummy {
 }

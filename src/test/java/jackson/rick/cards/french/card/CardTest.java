@@ -5,11 +5,13 @@ package jackson.rick.cards.french.card;
  */
 import jackson.rick.cards.french.rank.Ace;
 import jackson.rick.cards.french.rank.King;
+import jackson.rick.cards.french.rank.Rank;
 import jackson.rick.cards.french.suit.Club;
 import jackson.rick.cards.french.suit.Diamond;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;

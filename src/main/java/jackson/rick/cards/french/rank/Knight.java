@@ -1,27 +1,27 @@
 package jackson.rick.cards.french.rank;
 
 /**
- * Created by rickjackson on 2/3/17.
+ * Created by rickjackson on 2/23/17.
  */
-public class Ten extends Rank {
+public class Knight extends Rank {
     
-    public Ten() {
+    public Knight() {
         
     }
     
-    public Ten(String index) {
+    public Knight(String index) {
         super(index);
     }
     
-    public Ten(String index, String alternateIndex) {
+    public Knight(String index, String alternateIndex) {
         super(index, alternateIndex);
     }
     
-    public Ten(int value) {
+    public Knight(int value) {
         super(value);
     }
     
-    public Ten(int highValue, int lowValue) {
+    public Knight(int highValue, int lowValue) {
         super(highValue, lowValue);
     }
     
@@ -29,12 +29,13 @@ public class Ten extends Rank {
     // Bulk Operations
     
     void setDefaultProperties() {
-        index = "10";
-        alternateIndex = "T";
-        type = "Pip";
-        highValue = 10;
-        lowValue = 10;
-        wild = false;
+        // index = "A";
+        // alternateIndex = "";
+        // type = "Face";
+        // highValue = 14;
+        // lowValue = 1;
+        // wild = false;
+        setToNullValues();
     }
     
     
@@ -52,11 +53,11 @@ public class Ten extends Rank {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Ten)) return false;
+        if (!(o instanceof Knight)) return false;
         
-        Ten ten = (Ten) o;
+        Knight knight = (Knight) o;
         
-        return ((getHighValue() == ten.getHighValue()) &&
-                (getLowValue() == ten.getLowValue()));
+        return ((getHighValue() == knight.getHighValue()) &&
+                (getLowValue() == knight.getLowValue()));
     }
 }

@@ -1,27 +1,27 @@
 package jackson.rick.cards.french.rank;
 
 /**
- * Created by rickjackson on 2/3/17.
+ * Created by rickjackson on 2/20/17.
  */
-public class Ten extends Rank {
+public class NullRank extends Rank {
     
-    public Ten() {
-        
+    public NullRank() {
+        super();
     }
     
-    public Ten(String index) {
+    public NullRank(String index) {
         super(index);
     }
     
-    public Ten(String index, String alternateIndex) {
+    public NullRank(String index, String alternateIndex) {
         super(index, alternateIndex);
     }
     
-    public Ten(int value) {
+    public NullRank(int value) {
         super(value);
     }
     
-    public Ten(int highValue, int lowValue) {
+    public NullRank(int highValue, int lowValue) {
         super(highValue, lowValue);
     }
     
@@ -29,12 +29,7 @@ public class Ten extends Rank {
     // Bulk Operations
     
     void setDefaultProperties() {
-        index = "10";
-        alternateIndex = "T";
-        type = "Pip";
-        highValue = 10;
-        lowValue = 10;
-        wild = false;
+        setToNullValues();
     }
     
     
@@ -52,11 +47,12 @@ public class Ten extends Rank {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Ten)) return false;
+        if (!(o instanceof NullRank)) return false;
         
-        Ten ten = (Ten) o;
+        NullRank nullRank = (NullRank) o;
         
-        return ((getHighValue() == ten.getHighValue()) &&
-                (getLowValue() == ten.getLowValue()));
+        return ((getHighValue() == nullRank.getHighValue()) &&
+                (getLowValue() == nullRank.getLowValue()));
     }
+    
 }

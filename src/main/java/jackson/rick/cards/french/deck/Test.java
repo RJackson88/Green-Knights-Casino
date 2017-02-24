@@ -9,11 +9,13 @@ import java.util.Optional;
  */
 public class Test {
     
-    // public static void main(String[] args) {
-    //     Standard52 deck = new Standard52();
-    //     Optional<Card> optional = deck.getCard("Four", "Spade");
-    //     Card card = optional.get();
-    //
-    //     System.out.println(card);
-    // }
+    public static void main(String[] args) {
+        Deck<Card> deck = new Standard52();
+        
+        for (int i = 0; i < 52; i++) {
+            System.out.print(deck.get(i).toString() + " :  ");
+            System.out.print(deck.get(i).toShorthand() + "  ");
+            System.out.println(deck.get(i).getFace());
+        }
+    }
 }

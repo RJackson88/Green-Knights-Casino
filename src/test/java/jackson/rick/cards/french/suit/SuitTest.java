@@ -1,7 +1,9 @@
 package jackson.rick.cards.french.suit;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;
+import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,114 +24,59 @@ public class SuitTest {
     
     @Test
     public void getSymbolTest() {
-        String expected = "♣";
-        String actual = club.getSymbol();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
+        assertEquals(club.getSymbol(), "♣");
     }
     
     @Test
     public void getColorTest() {
-        String expected = "Black";
-        String actual = club.getColor();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
+        assertEquals(club.getColor(), "Black");
     }
     
     @Test
     public void getAlternateColorTest() {
-        String expected = "Green";
-        String actual = club.getAlternateColor();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
+        assertEquals(club.getAlternateColor(), "Green");
     }
     
     @Test
     public void getBlackSymbolTest() {
-        String expected = "♣";
-        String actual = club.getBlackSymbol();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
+        assertEquals(club.getWhiteSymbol(), "♣");
     }
     
     @Test
     public void getWhiteSymbolTest() {
-        String expected = "♧";
-        String actual = club.getWhiteSymbol();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
+        assertEquals(club.getWhiteSymbol(), "♧");
     }
     
     @Test
     public void getHighValueTest() {
-        int expected = 1;
-        int actual = club.getHighValue();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
+        assertEquals(club.getHighValue(), 1);
     }
     
     @Test
     public void getLowValueTest() {
-        int expected = 1;
-        int actual = club.getLowValue();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
+        assertEquals(club.getLowValue(), 1);
     }
     
     @Test
     public void hashCodeTest() {
-        int expected = new Club().hashCode();
-        int actual = club.hashCode();
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
-        System.out.println(clubClass.hashCode());
-        System.out.println(club.hashCode());
-        System.out.println(diamond.hashCode());
+        assertEquals(club.hashCode(), clubClass.hashCode());
+        assertNotEquals(club.hashCode(), diamond.hashCode());
     }
     
     @Test
     public void equalsTest() {
-        boolean expected = true;
-        boolean actual = club.equals(new Club());
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
+        assertTrue(club.equals(clubClass));
+        assertFalse(club.equals(diamond));
     }
     
     @Test
     public void compareToTest() {
-        int expected = 0;
-        int actual = club.compareTo(new Club());
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
+        assertEquals(club.compareTo(clubClass), 0);
+        assertEquals(club.compareTo(diamond), 1);
     }
     
     @Test
     public void compareTest() {
-        int expected = -1;
-        int actual = club.compareTo(new Diamond());
-        System.out.println("Expected : " + expected);
-        System.out.println("Actual   : " + actual);
-        assertEquals(String.format("I expected the result to be: %s", expected),
-                     expected, actual);
+        assertEquals(club.compare(diamond, clubClass), -1);
     }
 }
