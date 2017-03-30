@@ -37,7 +37,6 @@ public abstract class Rank implements Comparable<Rank>, Comparator<Rank> {
         setValues(highValue, lowValue);
     }
     
-    
     // Query and Modification Operations
     
     String getIndex() {
@@ -100,7 +99,6 @@ public abstract class Rank implements Comparable<Rank>, Comparator<Rank> {
         return wild;
     }
     
-    
     // Bulk Operations
     
     void setIndexToAlternate() {
@@ -132,14 +130,14 @@ public abstract class Rank implements Comparable<Rank>, Comparator<Rank> {
         wild = false;
     }
     
-    
     // Comparison and Hashing
     
     @Override
     public int hashCode() {
-        int result = ((toString() == "") ? 0 : (toString().hashCode()));
+        int result = ((toString().equals("")) ? 0 : (toString().hashCode()));
         result = 31 * result + getHighValue();
         result = 31 * result + getLowValue();
+        
         return result;
     }
     
@@ -150,7 +148,8 @@ public abstract class Rank implements Comparable<Rank>, Comparator<Rank> {
         
         Rank rank = (Rank) o;
         
-        return this.getHighValue() == rank.getHighValue();
+        return (this.getHighValue() == rank.getHighValue())
+               || (this.isWild() || rank.isWild());
     }
     
     @Override
@@ -163,7 +162,6 @@ public abstract class Rank implements Comparable<Rank>, Comparator<Rank> {
         return (rank2.getHighValue() - rank1.getHighValue());
     }
     
-    
     // String Conversion
     
     @Override
@@ -175,4 +173,15 @@ public abstract class Rank implements Comparable<Rank>, Comparator<Rank> {
         return getIndex();
     }
     
+    private static class Node<E extends Rank> {
+        E item;
+        Node<E> next;
+        Node<E> prev;
+        
+        Node(Node<E> prev, E element, Node<E> next) {
+            this.item = element;
+            this.next = next;
+            this.prev = prev;
+        }
+    }
 }

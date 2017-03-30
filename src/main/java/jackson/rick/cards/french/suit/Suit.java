@@ -177,10 +177,11 @@ public abstract class Suit implements Comparable<Suit>, Comparator<Suit> {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Suit)) return false;
-        
+    
         Suit suit = (Suit) o;
-        
-        return (this.getHighValue() == suit.getHighValue());
+    
+        return (this.getHighValue() == suit.getHighValue())
+               || (this.isWild() || suit.isWild());
     }
     
     @Override
@@ -203,5 +204,17 @@ public abstract class Suit implements Comparable<Suit>, Comparator<Suit> {
     
     public String symbol() {
         return getSymbol();
+    }
+    
+    private static class Node<E> {
+        E item;
+        Node<E> next;
+        Node<E> prev;
+        
+        Node(Node<E> prev, E element, Node<E> next) {
+            this.item = element;
+            this.next = next;
+            this.prev = prev;
+        }
     }
 }

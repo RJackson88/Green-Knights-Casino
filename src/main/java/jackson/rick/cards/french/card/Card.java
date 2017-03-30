@@ -16,18 +16,18 @@ public class Card implements Comparable<Card>, Comparator<Card> {
     public final Suit suit;
     public String back;
     public String face;
-
+    
     public Card() {
         this(new NullRank(), new NullSuit());
     }
-
+    
     public Card(Rank rank, Suit suit) {
         this.rank = rank;
         this.suit = suit;
         this.face = "\uD83C\uDCA0";
         this.back = "\uD83C\uDCA0";
     }
-
+    
     public Card(Rank rank) {
         this(rank, null);
     }
@@ -35,7 +35,6 @@ public class Card implements Comparable<Card>, Comparator<Card> {
     public Card(Suit suit) {
         this(null, suit);
     }
-    
     
     // Query and Modification Operations
     
@@ -80,17 +79,16 @@ public class Card implements Comparable<Card>, Comparator<Card> {
         setWild(false);
     }
     
-    
     // Bulk Operations
-    
     
     // Comparison and Hashing
     
     @Override
     public int hashCode() {
         int result = ((rank == null) ? 0 : rank.getClass().hashCode());
-        result = 31 * result + ((suit == null) ? 0
-                                               : suit.getClass().hashCode());
+        result = 31 * result + ((suit == null)
+                                ? 0
+                                : suit.getClass().hashCode());
         return result;
     }
     
@@ -100,30 +98,22 @@ public class Card implements Comparable<Card>, Comparator<Card> {
         if (!(o instanceof Card)) return false;
         
         Card card = (Card) o;
-        if (this.isWild() || card.isWild()) return true;
         
-        return ((this.rank.equals(card.rank)) &&
-                (this.suit.equals(card.suit)));
+        return (this.rank.equals(card.rank) && this.suit.equals(card.suit));
     }
     
     @Override
     public int compareTo(Card card) {
-        if (this.equals(card)) {
-            return 0;
-        } else {
-            return (this.rank.equals(card.rank))
-                    ? (this.suit.compareTo(card.suit))
-                    : (rank.compareTo(card.rank));
-        }
+        return (this.rank.compareTo(card.rank) == 0)
+               ? (this.suit.compareTo(card.suit))
+               : (this.rank.compareTo(card.rank));
     }
     
     @Override
     public int compare(Card card1, Card card2) {
-        return (card1.rank.getHighValue() == card2.rank.getHighValue())
-                ? (card1.suit.getHighValue() - card2.suit.getHighValue())
-                : (card2.rank.getHighValue() - card1.rank.getHighValue());
+        return (card1.rank.compareTo(card2.rank) == 0) ? card2.suit.compareTo(
+                card1.suit) : card2.rank.compareTo(card1.rank);
     }
-    
     
     // String Conversion
     
@@ -134,5 +124,19 @@ public class Card implements Comparable<Card>, Comparator<Card> {
     
     public String toShorthand() {
         return rank.index() + suit.symbol();
+    }
+    
+    // Nodes
+    
+    public static class Node<E> {
+        E item;
+        Node<E> next;
+        Node<E> prev;
+        
+        Node(Node<E> prev, E element, Node<E> next) {
+            this.item = element;
+            this.next = next;
+            this.prev = prev;
+        }
     }
 }

@@ -44,6 +44,8 @@ public abstract class Deck<C extends Card> extends ArrayList<C> {
     }
     
     public class Ranks extends ArrayList<Rank> {
+        int min;
+        int max;
         
         public Ranks() {
             super();
@@ -52,6 +54,11 @@ public abstract class Deck<C extends Card> extends ArrayList<C> {
         public Ranks(int initialCapacity) {
             super(initialCapacity);
         }
+        
+        // @Override
+        // public boolean add(Rank e) {
+        //
+        // }
     }
     
     public class Suits extends ArrayList<Suit> {
